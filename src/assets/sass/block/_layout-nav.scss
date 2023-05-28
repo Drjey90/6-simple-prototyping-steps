@@ -1,0 +1,15 @@
+/* Layout nav
+-------------------------------------------*/
+
+.layout-nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--space-xl);
+    padding-top: var(--space-xl);
+
+    ul{
+        display: flex;
+        gap: var(--space-m);
+    }
+}
+

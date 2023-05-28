@@ -1,0 +1,22 @@
+/* Scollable-list
+-------------------------------------------*/
+
+.scrollable-list{
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  > *{
+    flex-shrink: 0;
+    margin-bottom: 3rem;   
+    width: 316px;
+  }
+
+  > *+*{
+    margin-inline-start: var(--grid-gap);
+  }
+  
+}
+
+
+

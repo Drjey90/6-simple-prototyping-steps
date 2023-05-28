@@ -1,0 +1,36 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "1. Project Setup",
+        "url": "/setup/"
+      },
+      {
+        "text": "2. HTML & Accessibiity",
+        "url": "/semantic-html/"
+      },
+      {
+        "text": "3. Performance",
+        "url": "/performance/"
+      },
+      {
+        "text": "4. CSS Architecture",
+        "url": "/css-architecture/"
+      },
+      {
+        "text": "5. Modern CSS",
+        "url": "/modern-css/"
+      },
+      {
+        "text": "6. Testing",
+        "url": "/testing/"
+      },
+      {
+        "text": "Design example",
+        "url": "/examples/"
+      }
+    ]
+  }

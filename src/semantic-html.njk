@@ -1,0 +1,69 @@
+---
+title: "Semantic HTML"
+subtitle: "Work from the content-out to write semantic & accessible HTML."
+paragraphs: "Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO."
+layout: "_layouts/base.njk" 
+description: "Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
+---
+
+<p class="dropcap">Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
+<h3>The problem</h3>
+<p>One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or disabled users to access the content.</p>
+
+<h3>Solution</h3>
+<p>To avoid implementing inaccessible pages, describe every element present in the design you need to code.</p>
+
+<p>Then, to implement your designs, use semantic HTML to write meaningful markup; this approach will allow you to code pages that are machine-readable, accessible, and optimised for SEO.</p>
+
+      
+      <h3>Checklist</h3>
+       <h4 class="subtitle text-grey-color">Start from the content to write meaningful HTML and set up a good foundation for accessibility.</h4>
+       
+           <ol class="special-list special-list--checklist bg-white-color">
+          
+          <li>Did we describe every element that is on the page? <em class="text-grey-color">(e.g. Heading? Is it an article? Is it a running text composed of paragraphs? Section? Tab? Menu? Paragraph? Button? Link? List?…)</em></li>
+
+          <li>Did we use a naming convention to name our classes?</li>
+          
+          <li>Did we use minimum semantic HTML tags to structure our pages?</li>
+          
+          <li>Did we respect the content flow and hierarchy on pages?</li>
+          
+          <li>Did we optimise images for screen readers?</li>
+          
+          <li>Did we use ARIA to improve accessibility where necessary?</li>
+          
+          <li>Did we add ARIA on interactive elements?</li>
+          
+          <li>Did we add page descriptions <em>(metatags)</em>?</li>
+          
+          <li>Did we structure our <code class="code">&lt;head&gt;</code> section properly?</li>
+                                                   
+      </ol>
+      
+      <h3>Takeaways</h3>
+
+      <ul class="content-list">
+        <li>Use native semantic HTML tags to markup the content</li>
+        <li>Use a clear naming convention like <em>BEM Methodology</em> to name your classes</li>
+        <li>Don't use unecessary non semantic tags to structure your pages</li>
+        <li>Structure the content with clear headings (e.g. h1, h2, h3, h4…)</li>
+        <li>Use <code class="code">alt="..."</code> attributes to describe each images</li>
+        <li>Use ARIA landmark roles and ARIA labels to enhance accessibility</li>
+        <li>Use metatags on <code class="code">&lt;head&gt;</code> section to describe your web pages</li>
+      </ul>
+      
+      <h3>Ressource</h3>
+      <p>Links for further reading:</p>
+      <ul class="content-list content-list--links">
+        <li><a href="https://web.dev/learn/html/">Learn HTML</a></li>
+        <li><a href="https://webaim.org/techniques/semanticstructure/">Semantic Structure</a></li>
+        <li><a href="https://www.htmhell.dev/tips/page-descriptions/">Metadata: Page descriptions</a></li>
+        <li><a href="https://web.dev/learn/html/headings-and-sections/">Headings and sections</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML elements reference</a></li>
+        <li><a href="https://stuffandnonsense.co.uk/transcending-css-revisited/chapter-4.html">Designing content out</a></li>
+        <li><a href="https://getbem.com/naming/">BEM Naming</a></li>
+        <li><a href="https://www.htmhell.dev/tips/landmarks/">ARIA Landmark roles</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">ARIA Label</a></li>
+        <li><a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/">Keyboard accessibility</a></li>
+      </ul>

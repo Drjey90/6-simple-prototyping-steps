@@ -1,0 +1,152 @@
+/* Settings
+-------------------------------------------*/
+
+ /* CSS custom properties */    
+      
+:root{      
+      
+ /* Typography */
+  --titlefont : 'Literata', serif;
+  --basefont : 'Inter', sans-serif;
+      
+ /* Colors */
+ --bodycolor : #FCF5ED;
+ --textcolor :   #252525;
+       
+ --primary   :#34488D;  
+ --secondary  : #f4e7db;
+ --tertiary: #835d26;
+ 
+ --black: #121212 ;
+ --white: #ffffff;
+ --grey: #686868;
+ --grey-dark:#434343;
+ --grey-light: #f8f8f8;
+  
+ --linkcolor: #008488;
+ --linkcolorhover: #0d6163;
+ --linkcolorvisited: #639;
+       
+ --color-border:#e2e2e2;
+ --color-border-alt: #E8E8E8;
+ 
+ --logo-color: #2e4698;
+ --sidebar-background: transparent;
+ --footer-bg:#fff;
+ 
+ --alert-color: #825454;
+      
+ /*= cta */
+ --cta-text-color: #fff;
+ --cta-color: #008488;
+ --cta-border: #2C999C; 
+       
+ /* Typography */      
+--step--3: clamp(0.58rem, calc(0.56rem + 0.08vw), 0.64rem);
+  --step--2: clamp(0.69rem, calc(0.67rem + 0.14vw), 0.80rem);
+  --step--1: clamp(0.83rem, calc(0.79rem + 0.22vw), 1.00rem);
+  --step-0: clamp(1.00rem, calc(0.93rem + 0.33vw), 1.25rem);
+  --step-1: clamp(1.20rem, calc(1.10rem + 0.48vw), 1.56rem);
+  --step-2: clamp(1.44rem, calc(1.31rem + 0.67vw), 1.95rem);
+  --step-3: clamp(1.73rem, calc(1.54rem + 0.94vw), 2.44rem);
+  --step-4: clamp(2.07rem, calc(1.82rem + 1.28vw), 3.05rem);
+  --step-5: clamp(2.49rem, calc(2.14rem + 1.74vw), 3.82rem);
+  --step-6: clamp(3.36rem, calc(2.09rem + 6.35vw), 7.01rem);
+  --step-7: clamp(4.03rem, calc(2.18rem + 9.25vw), 9.35rem);
+  --step-8: clamp(8.41rem, calc(8.09rem + 1.63vw), 9.35rem);
+ 
+  --font-weight: 400;
+  --font-weight-md: 500;
+  --font-weight-bold: 650;
+  --font-weight-heavy: 800;
+  
+  
+  --lineheight-text-default: 1.6;
+  --lineheight-text-alt: 1.22; 
+       
+ /* Spacing */
+ --space-3xs: clamp(0.25rem, calc(0.23rem + 0.09vw), 0.31rem);
+ --space-2xs: clamp(0.50rem, calc(0.46rem + 0.19vw), 0.63rem);
+ --space-xs: clamp(0.75rem, calc(0.69rem + 0.28vw), 0.94rem);
+ --space-s: clamp(1.00rem, calc(0.92rem + 0.38vw), 1.25rem);
+ --space-m: clamp(1.50rem, calc(1.39rem + 0.57vw), 1.88rem);
+ --space-l: clamp(2.00rem, calc(1.85rem + 0.75vw), 2.50rem);
+ --space-xl: clamp(3.00rem, calc(2.77rem + 1.13vw), 3.75rem);
+ --space-2xl: clamp(4.00rem, calc(3.70rem + 1.51vw), 5.00rem);
+ --space-3xl: clamp(6.00rem, calc(5.55rem + 2.26vw), 7.50rem);
+ --flow-space: clamp(1.00rem, calc(0.92rem + 0.38vw), 1.25rem);  
+       
+ /* Text decoration styles */
+ --text-decoration-thickness: 2px;
+ --text-decoration-border-color: #e3e4e9;
+  
+ /* Border Radius */
+ --border-radius-default: 15px;
+ --border-radius-alt: 1rem;
+ --border-radius-full: 50px;
+      
+ /* Border width */
+ --border-width-default: 4px;
+ --border-width-thin: 2px;
+ --border-width-alt: 10px;
+      
+ /* Transition duration */
+ --duration-default: .25s;
+ --duration-alt: .5s;
+ 
+ /* Layout */
+ --grid-gap: var(--space-l);
+ --grid-2: repeat(2, minmax(0,1fr));
+ --grid-3: repeat(3, minmax(0,1fr));
+ --grid-4: repeat(4, minmax(0,1fr));
+ --grid-5: repeat(5, minmax(0,1fr));
+ --grid-8: repeat(8, minmax(0,1fr));
+ --grid-12: repeat(12, minmax(0,1fr));
+ --grid-10: repeat(10, minmax(0,1fr));
+ --grid-4-5: 6fr 1fr 4fr 3fr 3fr 4fr 1fr 6fr;
+ --grid-3-4: 3fr 1fr 2fr 2fr 1fr 3fr;
+
+ --modular-columns: repeat(4, 1fr);
+ --modular-column-count: 5;
+ --modular-gap-count: 3;
+ --modular-gap: 2vw;
+ --modular-width: 85vw;
+      
+ --container-size: 1480px;
+ 
+ // autofill    
+ --auto-grid-min-size: 30%;
+ 
+ // image-ratio
+ --aspect-ratio: 16 / 9;
+ }
+ 
+ /* Local font */
+ 
+ /* Inter Variable */
+ 
+ @font-face {
+   font-family: 'Inter';
+   font-style: oblique 0deg 10deg;
+   font-weight: 100 900; /* default: 400 */
+   src: url('../fonts/Inter-V-subset.woff2') format('woff2 supports variations'),
+        url('../fonts/Inter-V-subset.woff2') format('woff2-variations');
+ }
+
+/* Literata Variable */
+
+ @font-face {
+   font-family: 'Literata';
+   font-style: normal;
+   font-weight: 200 900;
+   src: url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2 supports variations'),
+        url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2-variations');
+ }
+ 
+ @font-face {
+   font-family: 'Literata';
+   font-style: italic;
+   font-weight: 200 900;
+   src: url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2 supports variations'),
+        url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2-variations');
+ }

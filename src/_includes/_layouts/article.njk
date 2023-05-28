@@ -1,0 +1,64 @@
+
+ {% include 'partials/_head.njk' %}
+<body class="[ article ] [ article-template ]"> 
+    <a href="#content" class="skip-link">Skip to content</a>
+  
+
+<aside class="sidebar">
+  <a href="#content" class="skip-link">Skip to content</a>
+  <header class="page-header">
+		<div class="logo">
+  			
+            <a href="/" aria-label="{{ site.name }} - home">
+            {% include 'partials/_logo.svg' %}
+            </a>
+  	</div>
+  </header>
+  
+</aside>
+
+ <main id="content" tabindex="-1">
+   <article class="[ post ] [ container flow section ]">
+    <section class="[ post__header ] [ grid grid--4-5 ]" data-gap="gap">  
+      <header>
+        <time>{{ page.date | postDate }}</time>
+        <h1 class="text-primary-color">{{ title }}</h1>
+        <p class="primary-msg">{{ primary }}</p>
+      </header>
+       
+       <aside aria-label="biography" class="flow bio">
+          <img class="ratio" src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGFzaWFuJTIwZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="jerome kalumbu" loading="lazy" width="200" height="200">
+          <p class="small text-grey-dark-color">Jerome Kalumbu, Web designer. For the last 12 years, I’ve helped private companies and individuals improve their website and digital products.</p>
+       </aside>
+
+        {{ content | safe }}
+
+              </div>
+   </article>
+
+
+   </main>
+     {% include 'partials/_secondary-nav.njk' %}
+    {% include 'partials/_footer.njk' %}
+
+     <script>
+
+		 $('#hamburger').click(function(){
+		   $('.main-nav').toggleClass('active');
+		   $('body').toggleClass('nav-is-open');
+		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
+			  if (x == "true") 
+			  {
+			  x = "false"
+			  } else {
+			  x = "true"
+			  }
+			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
+		 });
+		 
+		
+	 </script>
+ 
+ </body>
+ </html>
+ 

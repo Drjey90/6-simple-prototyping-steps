@@ -1,0 +1,27 @@
+/* Columns
+-------------------------------------------*/
+
+/* Columns (Critical: All) */
+
+@media (min-width:60em) {
+    .columns {
+        column-count: 2;
+        column-gap:var(--spacing-large);
+        column-rule: 2px solid $textcolor; 
+    }
+    
+    .columns div {
+        break-inside: avoid;
+        page-break-inside: avoid; 
+    }
+    
+    .columns p {
+        @include font-size(18);
+        font-size: var(--font-size-default);
+    }
+    
+    .columns.alt {
+        column-count: auto;
+        column-width: 12em; 
+    }
+}

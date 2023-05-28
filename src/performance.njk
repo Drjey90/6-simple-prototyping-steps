@@ -1,0 +1,71 @@
+---
+title: "Optimise for performance"
+subtitle: "Consider performance right from the beginning."
+paragraphs: "Optimise your site for performance to deliver the content fast to users and deliver a good experience to users on the website."
+layout: "_layouts/base.njk" 
+description: "Optimise your site for performance to deliver a good experience to users on the website."
+---
+
+<p class="dropcap">Most websites frustrate users and make businesses lose sales because the content takes too much time to load.</p>
+
+<h3>Heavy assets ruins your website</h3>
+
+<p>Heavy images, fonts, scripts and code-base are often responsible for increasing the page load time and damaging performance and UX.</p> 
+
+<h3>Tips to improve performance</h3>
+
+<p>A good way to optimise your website for performance is to optimise your images, code, script and fonts by following some basic best practices.</p>
+
+<p>Performance should be a key aspect of your design process and useful to enhance the user-experience.</p>
+
+
+      <h3>Checklist</h3>
+      <h4 class="text-grey-color">Basics for optimising your interfaces for better performance.</h4>
+        
+         <ol class="special-list special-list--checklist bg-white-color">
+             <li>Did we optimise the loading of our main CSS file?</li>
+             <li>Did we optimise our image formats?</li>
+             <li>Did we optimise our responsive images?</li>
+             <li>Did we prioritise the loading of our resources <em>(e.g images, video, fonts…)</em>? </li>
+             <li>Did we optimise our fonts?</li>
+         </ol>
+      
+      <h3>Takeaways</h3>
+      
+      <ul class="content-list">
+        <li>Load your main CSS file Asynchronously</li>
+        
+       <li>Use priority hints to prioritise resources</li>
+        
+        <li>Use inline SVG to display vector elements</li>
+        
+        <li>Use Squoosh.app to compress your images <em>(e.g. use AVIF or WEBP)</em></li>
+        
+        <li>Lazy load non-critical images <em>(below the fold)</em></li>
+
+        <li>Add <span class="code">decoding="async"</span> to non-critical images with lazy load</li>
+        
+        <li>Optimise your responsive images for performance</li>
+        
+        <li>Optimise font loading</li>
+      
+        <li>Follow best-practices to load your fonts</li>
+        
+        <li>Avoid layout shift by applying <span class="code">width</span> and <span class="code">height</span> attributes on these images</li>
+      
+      </ul>
+      
+      <h3>Ressource</h3>
+      <p>Links for further reading:</p>
+      <ul class="content-list content-list--links">
+        <li><a href="https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md">Priority Hints</a></li>
+        <li><a href="https://www.filamentgroup.com/lab/load-css-simpler/">Load CSS Asynchronously</a></li>
+        <li><a href="https://web.dev/learn/design/typography/#font-loading">Font loading</a></li>
+        <li><a href="https://imkev.dev/fetchpriority-opportunity">Priority Hints and optimising LCP</a></li>
+        <li><a href="https://web.dev/css-web-vitals/#images">Images and Largest Contentful Paint (LCP) </a></li>
+        <li><a href="https://web.dev/learn/design/responsive-images/">Responsive images</a></li>
+        <li><a href="https://www.sarasoueidan.com/blog/optimizing-svg-delivery-with-svg/">Optimizing SVG Text & Image</a></li>
+        <li><a href="https://www.htmhell.dev/tips/the-avif-image-format/">The AVIF image format</a></li>
+        <li><a href="https://web.dev/browser-level-image-lazy-loading/">Lazy loading for the web</a></li>
+        <li><a href="https://squoosh.app/">Squoosh.app</a></li>          
+      </ul>

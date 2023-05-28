@@ -1,0 +1,13 @@
+/* Skip link
+-------------------------------------------*/
+
+/* Skip link  */
+ 
+.skip-link{
+    position: fixed;
+    top: -30em;
+}
+
+.skip-link:focus{
+    top: 0;
+}

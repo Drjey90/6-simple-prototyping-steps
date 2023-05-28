@@ -1,0 +1,69 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+{%- set pageTitle %}{% if title %}{{ title }} | {% endif %}{{ meta.siteName }}{% endset -%}
+{%- set pageDescription %}{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}{% endset -%}
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ****************************************************
+Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
+********************************************************* -->
+
+<title>{{pageTitle}}</title>
+
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="preconnect" href="https://kit.fontawesome.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900;0,100..900" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | url }}">
+
+<!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
+<meta
+      name="description"
+      content="{{pageDescription}}"
+/>
+
+<!-- Specific Twitter description -->
+    {% if meta.twitterUsername %}
+    <meta name="twitter:creator" content="@{{ meta.twitterUsername }}" />
+    {% endif %}
+    <meta
+      name="twitter:title"
+      content="{{pageTitle}}"
+    />
+    <meta
+      name="twitter:description"
+      content="{{pageDescription}}"
+    />
+
+<!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
+    <meta
+      name="og:title"
+      content="{{pageTitle}}"
+    />
+    <meta
+      name="og:description"
+      content="{{pageDescription}}"
+    />
+
+<meta name="theme-color" content="#194598">
+
+<script
+  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+  crossorigin="anonymous">
+</script>
+
+<script src="https://kit.fontawesome.com/cf8407fa11.js" crossorigin="anonymous"></script>
+</head>

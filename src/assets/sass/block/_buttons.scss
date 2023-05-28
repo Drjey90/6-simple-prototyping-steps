@@ -1,0 +1,81 @@
+/* Buttons
+-------------------------------------------*/
+
+.cta-btn a,
+.cta-btn a:visited,
+.submit{ 
+    color: var(--cta-text-color);
+    padding: var(--space-s) var(--space-m);
+    background-color: var(--cta-color);
+    border-radius: var(--border-radius-full);
+    font-weight: var(--font-weight-heavy);
+    font-family: var(--basefont);
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    @include transition;
+    border: var(--border-width-default) solid var(--cta-border);    
+   
+}
+
+.cta-btn a:hover,
+.submit:hover{
+    --cta-color: #4c4c4c;
+    --cta-border: #7a7a7a;
+    --linkcolorhover: #fff;
+}
+
+.cta-btn a:focus,
+.form-submit:focus{
+    --cta-color: var(--black);
+    --cta-border:  var(--black);
+}
+
+/*= CTA full */
+
+.cta-btn.full a{
+    display: block;
+}
+
+/*= CTA primary  */
+
+.cta-btn.primary a{
+   --cta-color: #ff4d54;
+   --cta-border:#ff7176;
+   
+   @include font-size(18);
+   font-weight: 700;
+    
+    &:hover{
+       --cta-color: #4c4c4c;
+       --cta-border: #7a7a7a;
+       --linkcolorhover: #fff;
+    }
+}
+
+/* CTA outline  */
+
+.cta-btn.outline a{
+    --cta-border:  var(--grey-dark);
+    --cta-text-color:  var(--grey-dark);
+    --cta-color: transparent;
+    border: 2px solid var(--cta-border);
+    font-weight: 650;
+}
+
+.cta-btn.outline a:hover{
+    --cta-color:  var(--grey-dark);
+    --cta-text-color: var(--white);
+}
+
+/*.cta-btn.outline a:focus,
+.cta-btn.outline.alt a{
+    --cta-color: var(--black);
+    --cta-border: var(--black);
+    --cta-text-color: var(--white);
+}*/
+
+
+

@@ -1,0 +1,18 @@
+<nav role="navigation" class="layout-nav">
+  <ul class="l-rs">
+  <li><b>Layout:</b> </li>
+  <!--<li><a href="index.html">1</a> | </li>
+  <li><a href="example-2.html">2</a> | </li>
+  <li><a href="example-3.html">3</a> | </li>
+  <li><a href="example-4.html">4</a> | </li>
+  <li><a href="example-5.html">5</a> | </li>
+  <li><a href="example-6.html">6</a> | </li>
+  <li><a href="example-8.html">7</a> | </li>
+  <li><a href="example-9.html">8</a></li>-->
+   {% for post in collections.article %} 
+          <li>
+            <a href="{{ post.url }}">{{ post.data.layout_id }}</a>
+          </li>
+        {% endfor %}
+  </ul>
+</nav>

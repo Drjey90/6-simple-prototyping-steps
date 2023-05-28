@@ -1,0 +1,12 @@
+
+  <nav class="main-nav" aria-label="Main">
+	  <ul class="l-rs">		
+		  {% for item in navigation.items %}
+			<li>
+				<a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+				>{{ item.text }}</a
+				>
+			</li>
+		  {% endfor %}
+	  </ul>
+</nav>

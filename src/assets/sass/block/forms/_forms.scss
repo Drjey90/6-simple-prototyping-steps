@@ -1,0 +1,93 @@
+/* Forms
+-------------------------------------------*/
+
+form {
+    margin: 0 0 var(--space-m) 0;
+}
+    
+[type=email], 
+[type=tel], 
+[type=text], 
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    margin: 0 0 var(--space-s);
+    padding: var(--space-xs);
+    width: 100%;
+    border-color: var(--color-border);
+    border-width: var(--border-width-default);
+    border-style: solid;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: var(--step-1);
+} 
+
+textarea {
+    min-height: 12vh;
+    resize: vertical; 
+}
+
+/*= label */
+    
+label{
+    color: var(--textcolor);
+    margin: 0 0 var(--space-xs);
+    font-weight: var(--font-weight-bold);
+    display: inline-block;
+    font-size: var(--step-1);
+}
+
+    
+/*= checkbox */
+
+input[type=checkbox]+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box;
+}
+
+input[type=checkbox]+label:before {
+    content: '';
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    border: 2px solid var(--color-border);
+    float: left;
+    margin-bottom: var(--space-s);
+    margin-right: var(--space-m);
+    position: relative;
+    top: 1px;
+}
+
+input[type=checkbox]:checked+label:before {
+    background: var(--linkcolor);
+    border: 2px solid var(--linkcolor);
+}
+
+input[type=checkbox]:checked+label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    background: var(--white);
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 var(--white),4px 0 0 var(--white),4px -2px 0 var(--white),4px -4px 0 var(--white),4px -6px 0 var(--white),4px -8px 0 var(--white);
+    transform: rotate(45deg);
+}
+
+.required{
+    color: red;
+}

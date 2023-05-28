@@ -1,0 +1,70 @@
+
+ {% include 'partials/_head.njk' %}
+
+<body class="{{ bodyClass }}[ default-template ][ grid ]">
+    <a href="#content" class="skip-link">Skip to content</a>
+
+
+
+<aside class="sidebar">
+  <header class="page-header">
+  {% include 'partials/_header.njk' %}
+  </header>
+  
+    
+    
+    {% include 'partials/_footer.njk' %}
+
+    
+      
+</aside>
+
+ <main id="content" tabindex="-1">
+   
+   <article class="[ post ][ flow section ]">
+     
+     <header class="[ article__header ][ section flow bg-primary-color ]">
+       <div class="[ container ][ grid twelve ]">
+       <h1>{{ title }}</h1>
+       <h2>{{ subtitle }}</h2>
+      
+       <p class="primary-msg">{{ paragraphs }}</p>
+       </div>
+     </header>
+    
+     <div class="[ article__content ][ section ]">
+        <div class="[ container ][ grid twelve flow ]">
+            {{ content | safe }}
+
+        </div>
+     </div>
+
+
+   </article>
+  
+
+ 	</main>
+ {% include 'partials/_footer.njk' %}
+
+ <script>
+
+		 $('#hamburger').click(function(){
+		   $('.main-nav').toggleClass('active');
+		   $('body').toggleClass('nav-is-open');
+		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
+			  if (x == "true") 
+			  {
+			  x = "false"
+			  } else {
+			  x = "true"
+			  }
+			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
+		 });
+		 
+		
+	 </script>
+ 
+ </body>
+ </html>
+ 
+   

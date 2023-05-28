@@ -1,0 +1,20 @@
+/* Person item
+-------------------------------------------*/
+
+.person__item{
+
+    .person__item__name{
+        display: block;
+        font-size: var(--step-3);
+    }
+
+    .person__item__job{
+        margin-top: 0;
+        font-size: var(--step-1);
+    }
+
+    figcaption{
+        background: var(--white);
+        padding: var(--space-m);
+    }
+}

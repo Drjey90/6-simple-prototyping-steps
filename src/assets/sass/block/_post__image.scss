@@ -1,0 +1,19 @@
+/* Post image
+-------------------------------------------*/
+
+.post .post__main{
+  .post__image{
+     border: var(--color-border-alt) var(--border-width-alt) solid;
+     margin: var(--space-2xl) 0 var(--space-l) 0;
+     
+     
+     &--medium{
+       grid-column: 2 / -2;
+     }
+     
+     &--large{
+        grid-column: 1 / -1;
+      }
+  }
+}
+
