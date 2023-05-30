@@ -13,7 +13,7 @@
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    line-height: 1;
+    line-height: var(--lineheight-text-alt);
     text-decoration: none;
     @include transition;
     border: var(--border-width-default) solid var(--cta-border);    

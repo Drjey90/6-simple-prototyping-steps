@@ -6,7 +6,7 @@ paragraphs: "Start by setting up your project folder and organise your files fol
 layout: "_layouts/base.njk" 
 ---
 
-<p class="dropcap">Since your website will require HTML, stylesheets, and media content to work, you will be required to make changes in various places to implement your designs.</p>
+<p class="dropcap" fetchpriority="high">Since your website will require HTML, stylesheets, and media content to work, you will be required to make changes in various places to implement your designs.</p>
 
 <h3>The problem</h3>
 <p>Without a clear file architecture, updating files can become a pain and impact your efficiency; a bad site structure and naming convention can also affect SEO.</p>
@@ -54,9 +54,14 @@ assets
 
 </ul>
 
-<h3>Ressource</h3>
-<p>Links for further reading:</p>
-<ul class="content-list">
-  <li><a href="https://sass-lang.com/install">Install Sass</a></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a></li>
-</ul>
+<section class="resources grid--4-5 grid" data-gap="gap">
+          <div class="resources__links flow">
+        <h3>Resource</h3>
+        <p>Links for further reading:</p>
+        <ul class="content-list">
+          <li><a href="https://sass-lang.com/install">Install Sass</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a></li>
+        </ul>
+        </div>
+            {% include 'partials/_book.njk' %}
+      </section>

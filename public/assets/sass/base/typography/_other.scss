@@ -33,4 +33,5 @@ time{
     color: var(--white);
     border-radius: 5px;
     padding: 2px 5px;
+    @include font-size(15);
 }

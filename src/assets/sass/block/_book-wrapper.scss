@@ -1,0 +1,78 @@
+/* Book wrapper
+-------------------------------------------*/
+
+.book{
+    margin-top: var(--space-xl);
+
+    @include respond-to(tablets){
+        margin-top: 0;
+    }
+
+    &__info{
+
+        header{
+            padding-bottom: var(--space-l);
+            display: none;
+            
+            h3{
+                margin-bottom: var(--space-s);
+            }
+        }  
+        
+        img{
+            margin-bottom: var(--space-m);
+            @include respond-to(desktop){
+                width: 100%;
+            }
+        }
+    
+        p{
+            font-size: var(--step-1);
+            @include respond-to(desktop){
+                font-size: var(--step-0);
+            }
+        }  
+    
+        .cta-btn{
+            margin-top: var(--space-m);
+            
+            a{
+                font-size: var(--step-1);
+                display: block;
+            }
+        }
+    }
+}
+
+/* book cover for small sections */
+
+@container book-wrapper (width > 250px) {
+
+    .book{
+        display:grid;
+        grid-template-columns: var(--grid-2);
+        grid-row-gap:0;
+
+        header{
+            display:block;
+        }
+
+        &__info{
+            margin-top: 0;
+           
+            p{
+                margin-top: 0;
+            }
+
+            .cta-btn{
+                margin-top: var(--space-l);
+    
+                a{
+                    display:inline-block;
+                }
+            }
+        }
+    }
+   
+}
+

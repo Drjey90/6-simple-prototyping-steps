@@ -6,7 +6,7 @@ layout: "_layouts/base.njk"
 description: "Waen A modern approach to speed up development time, support performance and flexibility."
 ---
 
- <p class="dropcap">Our process of writing and structuring CSS files is based on SASS and CUBE CSS Methodology.</p>
+ <p class="dropcap" fetchpriority="high">Our process of writing and structuring CSS files is based on SASS and CUBE CSS Methodology.</p>
                       
       <p>To keep a clear CSS architecture, we organise all the styles of the prototype  inside a folder called <span class="code">/sass</span>, located inside the folder <span class="code">/assets</span></p>
   
@@ -198,10 +198,15 @@ styles.scss
   <li>Keep your CSS styles light</li>
 </ul>
 
-<h3>Ressources</h3>
+<section class="resources grid--4-5 grid" data-gap="gap">
+          <div class="resources__links flow">
+<h3>Resources</h3>
 
 <ul class="content-list">
 <li><a href="https://www.youtube.com/watch?v=5uhIiI9Ld5M&ab_channel=Hey%21Presents">Andy Bell: Browser’s Mentor, Not Micromanager + Cube CSS</a></li>
 <li><a href="https://cube.fyi/#how-does-cube-css-compare-to-other-methodologies">CUBE CSS Methodology</a></li>
 <li><a href="https://www.mikeaparicio.com/posts/2023-05-22-why-were-bad-at-css/?utm_source=convertkit&utm_medium=email&utm_campaign=It%27s+OK+to+Use+Modern+CSS.+Really%2C+really.+%7C+ModernCSS+Newsletter+%2361%20-%2010833447" target="_blank">Why are we bad at CSS?</a></li>
 </ul>
+</div>
+            {% include 'partials/_book.njk' %}
+      </section>

@@ -6,7 +6,7 @@ layout: "_layouts/base.njk"
 description: "Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
 ---
 
-<p class="dropcap">Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
+<p class="dropcap" fetchpriority="high">Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
 <h3>The problem</h3>
 <p>One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or disabled users to access the content.</p>
 
@@ -53,17 +53,22 @@ description: "Code your pages with semantic HTML to enhance accessibility and op
         <li>Use metatags on <code class="code">&lt;head&gt;</code> section to describe your web pages</li>
       </ul>
       
-      <h3>Ressource</h3>
-      <p>Links for further reading:</p>
-      <ul class="content-list content-list--links">
-        <li><a href="https://web.dev/learn/html/">Learn HTML</a></li>
-        <li><a href="https://webaim.org/techniques/semanticstructure/">Semantic Structure</a></li>
-        <li><a href="https://www.htmhell.dev/tips/page-descriptions/">Metadata: Page descriptions</a></li>
-        <li><a href="https://web.dev/learn/html/headings-and-sections/">Headings and sections</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML elements reference</a></li>
-        <li><a href="https://stuffandnonsense.co.uk/transcending-css-revisited/chapter-4.html">Designing content out</a></li>
-        <li><a href="https://getbem.com/naming/">BEM Naming</a></li>
-        <li><a href="https://www.htmhell.dev/tips/landmarks/">ARIA Landmark roles</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">ARIA Label</a></li>
-        <li><a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/">Keyboard accessibility</a></li>
-      </ul>
+        <section class="resources grid--4-5 grid" data-gap="gap">
+          <div class="resources__links flow">
+            <h3>Resource</h3>
+            <p>Links for further reading:</p>
+            <ul class="content-list content-list--links">
+              <li><a href="https://web.dev/learn/html/">Learn HTML</a></li>
+              <li><a href="https://webaim.org/techniques/semanticstructure/">Semantic Structure</a></li>
+              <li><a href="https://www.htmhell.dev/tips/page-descriptions/">Metadata: Page descriptions</a></li>
+              <li><a href="https://web.dev/learn/html/headings-and-sections/">Headings and sections</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML elements reference</a></li>
+              <li><a href="https://stuffandnonsense.co.uk/transcending-css-revisited/chapter-4.html">Designing content out</a></li>
+              <li><a href="https://getbem.com/naming/">BEM Naming</a></li>
+              <li><a href="https://www.htmhell.dev/tips/landmarks/">ARIA Landmark roles</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">ARIA Label</a></li>
+              <li><a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/">Keyboard accessibility</a></li>
+            </ul>
+           </div>
+            {% include 'partials/_book.njk' %}
+      </section>
