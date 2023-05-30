@@ -131,6 +131,7 @@
    font-weight: 100 900; /* default: 400 */
    src: url('../fonts/Inter-V-subset.woff2') format('woff2 supports variations'),
         url('../fonts/Inter-V-subset.woff2') format('woff2-variations');
+        font-display: swap;
  }
 
 /* Literata Variable */
@@ -141,6 +142,7 @@
    font-weight: 200 900;
    src: url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2 supports variations'),
         url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2-variations');
+   font-display: swap;
  }
  
  @font-face {
@@ -149,4 +151,5 @@
    font-weight: 200 900;
    src: url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2 supports variations'),
         url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2-variations');
+   font-display: swap;
  }

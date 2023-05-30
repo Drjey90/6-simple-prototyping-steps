@@ -17,10 +17,12 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<link rel="preload" href="/assets/fonts/Inter-V-subset.woff2" as="font" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
+<link rel="preload" href="/assets/fonts/Literata-Roman-VF-subset.woff2" as="font" type="font/woff2" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
 
+<link rel="stylesheet" href="/assets/css/style.css" media="print" onload="this.media='all'">
 
-<link rel="stylesheet" href="/assets/css/style.css" as="style">
-<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900;0,100..900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900;0,100..900&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -57,13 +59,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <meta name="theme-color" content="#194598">
 
-<script
+<script 
+  async="" defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
   crossorigin="anonymous">
 </script>
 
-<script src="https://kit.fontawesome.com/cf8407fa11.js" crossorigin="anonymous"></script>
+<script async="" defer="" src="https://kit.fontawesome.com/cf8407fa11.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body class="[ default-template ][ grid ]">
@@ -203,7 +207,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
      
      <header class="[ article__header ][ section flow bg-primary-color ]">
        <div class="[ container ][ grid twelve ]">
-       <h1>Design examples</h1>
+       <h1 fetchpriority=high>Design examples</h1>
        <h2>Preview of the prototype of a dummy article.</h2>
       
        <p class="primary-msg">A prototype with common elements and typesetting</p>

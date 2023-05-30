@@ -17,10 +17,12 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<link rel="preload" href="/assets/fonts/Inter-V-subset.woff2" as="font" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
+<link rel="preload" href="/assets/fonts/Literata-Roman-VF-subset.woff2" as="font" type="font/woff2" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
 
+<link rel="stylesheet" href="/assets/css/style.css" media="print" onload="this.media='all'">
 
-<link rel="stylesheet" href="/assets/css/style.css" as="style">
-<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900;0,100..900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900;0,100..900&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -57,13 +59,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <meta name="theme-color" content="#194598">
 
-<script
+<script 
+  async="" defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
   crossorigin="anonymous">
 </script>
 
-<script src="https://kit.fontawesome.com/cf8407fa11.js" crossorigin="anonymous"></script>
+<script async="" defer="" src="https://kit.fontawesome.com/cf8407fa11.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body class="[ default-template ][ grid ]">
@@ -203,7 +207,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
      
      <header class="[ article__header ][ section flow bg-primary-color ]">
        <div class="[ container ][ grid twelve ]">
-       <h1>Optimise for performance</h1>
+       <h1 fetchpriority=high>Optimise for performance</h1>
        <h2>Consider performance right from the beginning.</h2>
       
        <p class="primary-msg">Optimise your site for performance to deliver the content fast to users and deliver a good experience to users on the website.</p>
@@ -235,6 +239,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
              <li>Did we optimise our responsive images?</li>
              <li>Did we prioritise the loading of our resources <em>(e.g images, video, fonts…)</em>? </li>
              <li>Did we optimise our fonts?</li>
+             <li>Did we use a Variable font?</li>
          </ol>
       
       <h3>Takeaways</h3>
@@ -259,7 +264,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
         <li>Follow best-practices to load your fonts</li>
         
         <li>Avoid layout shift by applying <span class="code">width</span> and <span class="code">height</span> attributes on these images</li>
-      
+
+        <li>Did we eliminate render-blocking scripts?</li>
+
       </ul>
       
       <h3>Ressource</h3>
@@ -274,7 +281,10 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
         <li><a href="https://www.sarasoueidan.com/blog/optimizing-svg-delivery-with-svg/">Optimizing SVG Text & Image</a></li>
         <li><a href="https://www.htmhell.dev/tips/the-avif-image-format/">The AVIF image format</a></li>
         <li><a href="https://web.dev/browser-level-image-lazy-loading/">Lazy loading for the web</a></li>
-        <li><a href="https://squoosh.app/">Squoosh.app</a></li>          
+        <li><a href="https://squoosh.app/">Squoosh.app</a></li>  
+        <li><a href="https://web.dev/i18n/en/reduce-webfont-size/">Reduce web font size</a></li>  
+        <li><a href="https://everythingfonts.com/subsetter">Subsetting fonts</a></li> 
+        <li><a href="https://javascript.info/script-async-defer">Scripts: async, defer</a></li>           
       </ul>
 
         </div>
