@@ -1760,7 +1760,9 @@ input[type=checkbox]:checked + label:after {
 .post h2 + dl {
   margin-top: var(--space-xl);
 }
-.post h3 + .code-block {
+.post h2 + .code-block,
+.post h3 + .code-block,
+.post h4 + .code-block {
   margin-top: var(--space-xl);
 }
 .post hr + h3,
