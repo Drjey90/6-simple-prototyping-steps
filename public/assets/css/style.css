@@ -1511,20 +1511,30 @@ p + .tab-item:nth-of-type(1) {
 
 /* Book wrapper
 -------------------------------------------*/
-.book {
+.book-wrapper h3 {
   margin-top: var(--space-xl);
 }
+@media only screen and (min-width: 768px) {
+  .book-wrapper h3 {
+    margin-top: 0;
+  }
+}
+.book-wrapper header {
+  margin-bottom: var(--space-m);
+}
+@media only screen and (min-width: 1024px) {
+  .book-wrapper header {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .book {
     margin-top: 0;
   }
 }
 .book__info header {
-  padding-bottom: var(--space-l);
   display: none;
-}
-.book__info header h3 {
-  margin-bottom: var(--space-s);
 }
 .book__info img {
   margin-bottom: var(--space-m);
@@ -1536,11 +1546,6 @@ p + .tab-item:nth-of-type(1) {
 }
 .book__info p {
   font-size: var(--step-1);
-}
-@media only screen and (min-width: 1024px) {
-  .book__info p {
-    font-size: var(--step-0);
-  }
 }
 .book__info .cta-btn {
   margin-top: var(--space-m);
@@ -1556,6 +1561,7 @@ p + .tab-item:nth-of-type(1) {
     display: grid;
     grid-template-columns: var(--grid-2);
     grid-row-gap: 0;
+    align-items: center;
   }
   .book header {
     display: block;
