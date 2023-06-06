@@ -1423,9 +1423,6 @@ button#hamburger[aria-expanded=true] {
 .special-list li em {
   font-weight: var(--font-weight);
 }
-.special-list li:last-of-type {
-  border-bottom: none;
-}
 .special-list ::marker {
   font-size: var(--step-4);
   content: counters(list-item, "") ": ";

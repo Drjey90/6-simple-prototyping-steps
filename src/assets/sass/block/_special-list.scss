@@ -29,10 +29,6 @@
           font-weight: var(--font-weight);
       }
     }
-
-    li:last-of-type{
-      border-bottom: none;
-    }
   
     ::marker {
       font-size: var(--step-4);
