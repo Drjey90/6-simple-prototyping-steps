@@ -47,7 +47,7 @@ A good way to reduce the total page size of your website and improve page render
 *   Use `fetchpriority=high` to prioritise key resources
 *   Lazy load non-critical images with `loading=lazy` _(e.g. images below the fold)_
 *   Add decoding="async" to non-critical images
-*   Add `async=""` and `defer=""` attributes on inline JS scripts
+*   Add `async=""` and `defer=""` attributes on heavy JS scripts
 *   Warm connections to origins with `rel=preconnect` _(connection to third-party sites)_
 *   Use inline SVG to display vector elements
 *   Use _[Squoosh.app](https://squoosh.app/)_ to compress your images in AVIF or WEBP formats

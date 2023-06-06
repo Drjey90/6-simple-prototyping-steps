@@ -999,7 +999,7 @@ ol.content-list li:not(:last-child) {
 /* Image ration
 -------------------------------------------*/
 .ratio {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
 @media only screen and (min-width: 1024px) {
@@ -2029,7 +2029,6 @@ input[type=checkbox]:checked + label:after {
   margin-right: auto;
 }
 .article-template-2 .article__content p {
-  font-size: var(--step-1);
   font-weight: 400;
 }
 .article-template-2 .article__content p + p {
