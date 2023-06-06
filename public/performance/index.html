@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Optimise for performance | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Optimise your site for performance to deliver a good experience to users on the website."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Optimise for performance | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Optimise your site for performance to deliver a good experience to users on the website."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Optimise for performance | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Optimise your site for performance to deliver a good experience to users on the website."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,77 +209,55 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Optimise for performance</h1>
+               <h2>Consider performance right from the beginning</h2>
+               <p class="primary-msg">Optimise your site resources to improve page rendering times and deliver content quickly to users.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Optimise for performance</h1>
-       <h2>Consider performance right from the beginning</h2>
-      
-       <p class="primary-msg">Optimise your site resources to improve page rendering times and deliver content quickly to users.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap" fetchpriority="high">Performance is a crucial aspect of good UX since users must access the content as fast as possible to accomplish their goals.</p>
-
-<h3>Heavy resources kill UX</h3>
-
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Performance is a crucial aspect of good UX since users must access the content as fast as possible to accomplish their goals.</p>
+<h3>Problem: Heavy resources kill UX</h3>
 <p>Most websites take too much time to load because resources like <strong>scripts, fonts, images</strong> and <strong>CSS</strong> are poorly optimised and therefore drastically increase the weight of pages.</p>
-
 <p>When resources are heavy to download and scripts block the page's rendering, it frustrates users and makes businesses lose sales because the content doesn't show promptly.</p>
-
-<h3>Optimise your resources</h3>
-<p>A good way to reduce the total page size of your website and improve page rendering times is to optimise your images, scripts, fonts and CSS by following some basic best practices.</p>
-
-      <h3>Performance checklist</h3>
-      <h4 class="text-grey-color">Basics for optimising your interfaces for better performance.</h4>
-        
-         <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
+<h3>Solution: Optimise your resources</h3>
+<p>A good way to reduce the total page size of your website and improve page rendering times is to optimise resources like images, scripts, fonts and CSS by following some basic best practices.</p>
+<h3>Performance checklist</h3>
+<h4 class="text-grey-color">Basics for optimising your interfaces for better performance.</h4>
+ <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
              <li>Did we optimise our image formats?</li>
              <li>Did we optimise our responsive images?</li>
-             <li>Did we prioritise the loading of our resources <em>(e.g images, video, fonts…)</em>? </li>
-             <li>Did we optimise our fonts?</li>
-             <li>Did we use a Variable font?</li>
+             <li>Did we prioritise key resources? <em>(e.g images, video, fonts…)</em>? </li>
+             <li>Did we lazy-load non-critical images?</li>
+             <li>Did we fetch late-found resources?</li>
              <li>Did we eliminate render-blocking scripts?</li>
-         </ol>
-      
-      <h3>Takeaways</h3>
-      
-      <ul class="content-list">
-        
-       <li>Use priority hints to prioritise resources</li>
-        
-        <li>Use inline SVG to display vector elements</li>
-        
-        <li>Use Squoosh.app to compress your images <em>(e.g. use AVIF or WEBP)</em></li>
-        
-        <li>Lazy load non-critical images <em>(below the fold)</em></li>
-
-        <li>Add <span class="code">decoding="async"</span> to non-critical images with lazy load</li>
-        
-        <li>Optimise your responsive images for performance</li>
-        
-        <li>Optimise font loading</li>
-      
-        <li>Follow best-practices to load your fonts</li>
-        
-        <li>Avoid layout shift by applying <span class="code">width</span> and <span class="code">height</span> attributes on these images</li>
-        <li>Add <code class="code">async=""</code> and <code class="code">defer=""</code> attributes on inline scripts</li>
-
-      </ul>
-      
-      <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
+             <li>Did we warm connections to origins?</li>
+             <li>Did we optimise our fonts?</li>
+  </ol>
+<h3>Takeaways</h3>
+<ul>
+<li>Fetch late-found resources with <code>rel=preload</code> <em>(e.g. heavy hero images, fonts...)</em></li>
+<li>Use <code>fetchpriority=high</code> to prioritise key resources</li>
+<li>Lazy load non-critical images with <code>loading=lazy</code> <em>(e.g. images below the fold)</em></li>
+<li>Add decoding=&quot;async&quot; to non-critical images</li>
+<li>Add <code>async=&quot;&quot;</code> and <code>defer=&quot;&quot;</code> attributes on inline JS scripts</li>
+<li>Warm connections to origins with <code>rel=preconnect</code> <em>(connection to third-party sites)</em></li>
+<li>Use inline SVG to display vector elements</li>
+<li>Use <em><a href="https://squoosh.app/">Squoosh.app</a></em> to compress your images in AVIF or WEBP formats</li>
+<li>Optimise your responsive images for performance</li>
+<li>Host your images on <em><a href="https://cloudinary.com/">Cloudinary</a></em> or <em><a href="https://sirv.com/">Sirv</a></em></li>
+<li>Self-host your fonts</li>
+<li>Avoid layout shift by applying width and height attributes on these images</li>
+</ul>
+<section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
             <h3>Resource</h3>
             <p>Links for further reading:</p>
@@ -301,7 +273,8 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
               <li><a href="https://www.sarasoueidan.com/blog/optimizing-svg-delivery-with-svg/">Optimizing SVG Text & Image</a></li>
               <li><a href="https://www.htmhell.dev/tips/the-avif-image-format/">The AVIF image format</a></li>
               <li><a href="https://web.dev/browser-level-image-lazy-loading/">Lazy loading for the web</a></li>
-              <li><a href="https://squoosh.app/">Squoosh.app</a></li>  
+              <li><a href="https://squoosh.app/">Squoosh.app</a></li> 
+              <li><a href="https://paper.dropbox.com/doc/Performance-Optimization-Strategy-in-2023--B5uliDvfsfq~O8rZ3WmH50gkAg-qWcr7orx2cEWHpLqoLeTC">Performance Optimization Strategy in 2023</a></li> 
             </ul>
           </div>
             <div class="book-wrapper">
@@ -314,21 +287,33 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
-
-                </section>
-    </figure>
+<p></section>
+</figure></p>
 </div>
       </section>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/semantic-html">« HTML &amp; Accessibility</a>
+            </li>
+            <li>
+               <div>Page</div>
+               4 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/css-architecture/">CSS Architecture »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -343,8 +328,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -358,11 +342,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

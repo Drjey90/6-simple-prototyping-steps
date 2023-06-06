@@ -3,6 +3,10 @@
 
 .article{
 
+  ul{
+    @extend .content-list;
+  }
+  
   h1{
     font-size: var(--step-6);
   }

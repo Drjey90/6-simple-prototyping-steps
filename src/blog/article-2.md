@@ -10,7 +10,7 @@ article:
   imageAlt: 'Italian street'
 ---
 
-<p class="dropcap">Sitting in a Reykjavík studio in the summer of 2017, Björk had a very specific request for Marta Salogni: The singer wanted to make a song sound like she was “whispering a secret amongst the fireworks.” </p>
+Sitting in a Reykjavík studio in the summer of 2017, Björk had a very specific request for Marta Salogni: The singer wanted to make a song sound like she was “whispering a secret amongst the fireworks.”
 
 In Salogni’s role as mixing engineer, she tried to put herself in that scenario by asking herself a series of questions: Are the frequencies of whispers high or low? Is the sound muffled? How does the brain process the quiet confession relative to the overhead booming? And, maybe most important, how might the experience feel, physically and mentally?
 

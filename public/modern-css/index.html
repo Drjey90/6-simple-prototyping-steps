@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Style your pages with Modern CSS | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Style your pages with Modern CSS | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Style your pages with Modern CSS | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,43 +209,29 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Style your pages with Modern CSS</h1>
+               <h2>Write the styles of your website</h2>
+               <p class="primary-msg">Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Style your pages with Modern CSS</h1>
-       <h2>Write the styles of your website with less CSS</h2>
-      
-       <p class="primary-msg">Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap">Designing an engaging and complex responsive layout is challenging, especially without using modern CSS properties and techniques to implement these designs.</p>
-
-<h3>Pay attention to frameworks</h3>
-
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Designing an engaging and complex responsive layout is challenging, especially without using modern CSS properties and techniques to implement these designs.</p>
+<h3>Problem: Pay attention to frameworks</h3>
 <p>Back then, we needed to rely on <em>external libraries, Javascript or heavy frameworks</em> to implement <strong>complex layouts</strong>, which impacted performance because of the heavy code-base.</p>
-
-<h3>Solve old-CSS problems with modern CSS</h3>
-
+<h3>Solution: Build layouts with modern CSS</h3>
 <p>CSS has grown up, and over the last few years, new CSS properties have emerged, allowing us to implement complex, flexible and cutting-edge layouts with less CSS.</p>
 <p>The whole idea is to combine existing CSS with CSS layouts rules <em>(e.g. flexbox, CSS Grids, Container-Queries, and multi-columns...)</em> to <strong>save a lot of time</strong> in implementing <strong>engaging</strong> and <strong>performant</strong> layouts.</p>
-
 <h3>Checklist</h3>
-
-<h4 class="[ subtitle ][ text-grey-color ]">Tips for optimising and writing CSS</h4>
-
+<h4>Tips for optimising and writing CSS</h4>
 <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
    <li>Did we use CSS Custom Properties to control foundation styles?</li>
    <li>Did we use a Variable font?</li>
@@ -263,23 +243,18 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
    <li>Did we optimise the ratio of our images?</li>
    <li>Did enhance styles for keyboard navigation?</li>
 </ol>
-
 <h3>Takeaways</h3>
-
-<ul class="content-list">
-   <li>Use variables to control colors, spacing and typography</li>
-   <li>Use variable font to use granular weight and styles</li>
-   <li>Do we have a good rythm and visual hierarchy on our pages?</li>
-   <li>Use <a href="https://utopia.fyi/">Utopia</a> to generate a type and spacing scale</li>
-   <li>Apply the correct aspect-ratio on your images/media</li>
-   <li>Use the CSS Layout to build your pages</li>
+<ul>
+<li>Use variables to control colors, spacing and typography</li>
+<li>Use variable font to use granular weight and styles</li>
+<li>Do we have a good rythm and visual hierarchy on our pages?</li>
+<li>Use <a href="https://utopia.fyi/">Utopia</a> to generate a type and spacing scale</li>
+<li>Apply the correct aspect-ratio on your images/media</li>
+<li>Use the CSS Layout to build your pages</li>
 </ul>
-
-
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
 <div class="[ resources__links ] [ flow ]">
 <h3>Ressource</h3>
-
 <p>Links for further reading:</p>
 <ul class="[ content-list ][ content-list--links ]">
    <li><a href="https://www.youtube.com/watch?v=7X8R_KVB3uc
@@ -306,21 +281,33 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
-
-                </section>
-    </figure>
+<p></section>
+</figure></p>
 </div>
 </section>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/css-architecture">« CSS Architecture</a>
+            </li>
+            <li>
+               <div>Page</div>
+               6 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/testing">Testing »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -335,8 +322,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -350,11 +336,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

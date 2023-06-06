@@ -27,7 +27,8 @@ time{
 
 /* code text elements */
 
-.code{    
+.code,
+code{    
     font-family: monospace;
     background: var(--grey-dark);
     color: var(--white);

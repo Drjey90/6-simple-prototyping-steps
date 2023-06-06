@@ -42,3 +42,23 @@
   }
 
 } 
+
+/* front + last page fixes */
+
+.front .footer-nav{
+  ul li:first-child{
+    strong,
+    a{
+      display: none;
+    }
+  }
+}
+
+.last-page .footer-nav{
+  ul li:last-child{
+    strong,
+    a{
+      display: none;
+    }
+  }
+}

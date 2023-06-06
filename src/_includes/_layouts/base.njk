@@ -1,52 +1,57 @@
+{% include 'partials/_head.njk' %}
 
- {% include 'partials/_head.njk' %}
+<body class="{{ bodyClass }}[ article ][ default-template ][ grid ]">
 
-<body class="{{ bodyClass }}[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-
-<aside class="sidebar">
-  <header class="page-header">
-  {% include 'partials/_header.njk' %}
-  </header>
-  
-    
-    
-    {% include 'partials/_footer.njk' %}
-
-    
+   <aside class="sidebar">
       
-</aside>
+      <header class="page-header">
+         {% include 'partials/_header.njk' %}
+      </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>{{ title }}</h1>
-       <h2>{{ subtitle }}</h2>
-      
-       <p class="primary-msg">{{ paragraphs }}</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            {{ content | safe }}
+      {% include 'partials/_footer.njk' %}
+   </aside>
 
-        </div>
-     </div>
+   <main id="content" tabindex="-1">
 
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>{{ page.title }}</h1>
+               <h2>{{ page.subtitle }}</h2>
+               <p class="primary-msg">{{ page.primary_msg }}</p>
+            </div>
+         </header>
 
-   </article>
-  
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               {{ content | safe }}
+            </div>
+         </div>
 
- 	</main>
- {% include 'partials/_footer.njk' %}
+      </article>
 
- <script>
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="{{ pagesubnav.previousUrl }}">« {{ pagesubnav.previousUrlText }}</a>
+            </li>
+            <li>
+               <div>Page</div>
+               {{ pagesubnav.pageNumber }} / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="{{ pagesubnav.nextUrl }}">{{ pagesubnav.nextUrlText }} »</a>
+            </li>
+         </ul>
+      </nav>
+
+   </main>
+
+   {% include 'partials/_footer.njk' %}
+
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -60,11 +65,7 @@
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

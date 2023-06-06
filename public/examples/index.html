@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Design examples | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology"
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Design examples | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology"
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Design examples | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology"
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ last-page ][ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/"  aria-current="page" data-state="active"
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,162 +209,145 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Design examples</h1>
+               <h2>Preview of the prototype of a dummy article.</h2>
+               <p class="primary-msg">A prototype with common elements and typesetting</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Design examples</h1>
-       <h2>Preview of the prototype of a dummy article.</h2>
-      
-       <p class="primary-msg">A prototype with common elements and typesetting</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
- <p class="dropcap">Implementing your designs following best practices and cutting-edge techniques about responsive design, semantic markup, accessibility, and performance will help you design effective websites and save time.</p>
-      
-      <p>Below are examples to help you dig around and see how we apply the styles on different design examples</p>      
-      
-      <h3>Article templates</h3>
-
-       <ul class="[ posts ] [ l-rs grid two ]" data-gap="gap">
-         
-          <li class="posts__item">
-
-            <article>
-            <figure>
-              <a href="/blog/chicca/">
-                <img rel="preload" class="ratio" 
-            src="https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80" 
-            alt="Buttered toasted white bread
-                ">
-              </figure>
-              </a>
-              <h3><a href="/blog/chicca/">chicca</a></h3>
-              <p>Unleashing the Power of Precision Engineering</p>
-        </article>
-
-          </li>
-         
-          <li class="posts__item">
-
-            <article>
-            <figure>
-              <a href="/blog/bari-vecchia/">
-                <img rel="preload" class="ratio" 
-            src="https://images.unsplash.com/photo-1601827184438-de436193d5f3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2140&amp;q=80" 
-            alt="Italian street
-                ">
-              </figure>
-              </a>
-              <h3><a href="/blog/bari-vecchia/">Bari Vecchia</a></h3>
-              <p>Unleashing the Power of Precision Engineering</p>
-        </article>
-
-          </li>
-         
-          <li class="posts__item">
-
-            <article>
-            <figure>
-              <a href="/blog/stadio-san-siro/">
-                <img rel="preload" class="ratio" 
-            src="https://images.unsplash.com/photo-1643105095873-64c53d2a8fa6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2787&amp;q=80" 
-            alt="Italian street
-                ">
-              </figure>
-              </a>
-              <h3><a href="/blog/stadio-san-siro/">Stadio San Siro</a></h3>
-              <p>San Siro an iconic symbol of football&#39;s rich history and passion in Milan, Italy</p>
-        </article>
-
-          </li>
-        
-      </ul>
-
-      <h3>List person</h3>
-
-      <ul class="[ person-list ] [ l-rs  grid two ]" data-gap="gap">
-       
-        <li class="person__item">
-          <figure>
-          <img rel="preload" class="ratio" 
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Implementing your designs following best practices and cutting-edge techniques about responsive design, semantic markup, accessibility, and performance will help you design effective websites and save time.</p>
+<p>Below are examples to help you dig around and see how we apply the styles on different design examples</p>
+<h3>Article templates</h3>
+<ul class="[ posts ] [ l-rs grid two ]" data-gap="gap">
+   <li class="posts__item">
+      <article>
+         <figure>
+            <a href="/blog/bari-vecchia/">
+            <img rel="preload" class="ratio" 
+               src="https://images.unsplash.com/photo-1601827184438-de436193d5f3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2140&amp;q=80" 
+               alt="Italian street
+               ">
+         </figure>
+         </a>
+         <h3><a href="/blog/bari-vecchia/">Bari Vecchia</a></h3>
+         <p>Unleashing the Power of Precision Engineering</p>
+      </article>
+   </li>
+   <li class="posts__item">
+      <article>
+         <figure>
+            <a href="/blog/stadio-san-siro/">
+            <img rel="preload" class="ratio" 
+               src="https://images.unsplash.com/photo-1643105095873-64c53d2a8fa6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2787&amp;q=80" 
+               alt="Italian street
+               ">
+         </figure>
+         </a>
+         <h3><a href="/blog/stadio-san-siro/">Stadio San Siro</a></h3>
+         <p>San Siro an iconic symbol of football&#39;s rich history and passion in Milan, Italy</p>
+      </article>
+   </li>
+   <li class="posts__item">
+      <article>
+         <figure>
+            <a href="/blog/porsche-pushes-the-boundaries-of-automotive/">
+            <img rel="preload" class="ratio" 
+               src="https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80" 
+               alt="Buttered toasted white bread
+               ">
+         </figure>
+         </a>
+         <h3><a href="/blog/porsche-pushes-the-boundaries-of-automotive/">Porsche pushes the boundaries of automotive</a></h3>
+         <p>Unleashing the Power of Precision Engineering</p>
+      </article>
+   </li>
+</ul>
+<h3>List person</h3>
+<ul class="[ person-list ] [ l-rs  grid two ]" data-gap="gap">
+   <li class="person__item">
+      <figure>
+         <img rel="preload" class="ratio" 
             src="/assets/img/people-1.avif" 
             alt="Maria portrait
-          ">
-          </figure>
-          <figcaption class="flow">
-            <span class="[ person__item__name ] [ h3 ]">Maria</span>
-            <p class="[ person__item__job ] [ text-grey-color ]">Designer</p>
-          </figcaption>
-        </li>
-       
-        <li class="person__item">
-          <figure>
-          <img rel="preload" class="ratio" 
+            ">
+      </figure>
+      <figcaption class="flow">
+         <span class="[ person__item__name ] [ h3 ]">Maria</span>
+         <p class="[ person__item__job ] [ text-grey-color ]">Designer</p>
+      </figcaption>
+   </li>
+   <li class="person__item">
+      <figure>
+         <img rel="preload" class="ratio" 
             src="/assets/img/people-2.avif" 
             alt="Marco portrait
-          ">
-          </figure>
-          <figcaption class="flow">
-            <span class="[ person__item__name ] [ h3 ]">Marco</span>
-            <p class="[ person__item__job ] [ text-grey-color ]">Designer</p>
-          </figcaption>
-        </li>
-       
-        <li class="person__item">
-          <figure>
-          <img rel="preload" class="ratio" 
+            ">
+      </figure>
+      <figcaption class="flow">
+         <span class="[ person__item__name ] [ h3 ]">Marco</span>
+         <p class="[ person__item__job ] [ text-grey-color ]">Designer</p>
+      </figcaption>
+   </li>
+   <li class="person__item">
+      <figure>
+         <img rel="preload" class="ratio" 
             src="/assets/img/people-3.avif" 
             alt="Francesca portrait
-          ">
-          </figure>
-          <figcaption class="flow">
-            <span class="[ person__item__name ] [ h3 ]">Francesca</span>
-            <p class="[ person__item__job ] [ text-grey-color ]">Account manager</p>
-          </figcaption>
-        </li>
-      
-      </ul>
+            ">
+      </figure>
+      <figcaption class="flow">
+         <span class="[ person__item__name ] [ h3 ]">Francesca</span>
+         <p class="[ person__item__job ] [ text-grey-color ]">Account manager</p>
+      </figcaption>
+   </li>
+</ul>
+<h3>industry experts</h3>
+<p>Use this guide as a foundation to ensure that your code is optimised for good UX.</p>
+<p>Keep your skills up-to-date following and reading materials from these industry experts:</p>
+<ul>
+<li><a href="https://www.miriamsuzanne.com/">Miriam Suzanne</a></li>
+<li><a href="https://labs.jensimmons.com/">Jen Simmons</a></li>
+<li><a href="https://una.im/">Una Kravetz</a></li>
+<li><a href="https://ishadeed.com/">Ahmad Shadeed</a></li>
+<li><a href="https://rachelandrew.co.uk/">Rachel Andrew</a></li>
+<li><a href="https://moderncss.dev/">Stephanie Eckles</a></li>
+<li><a href="https://www.matuzo.at/">Manuel Matuzovic</a> + <a href="https://www.htmhell.dev/">HTMLell</a></li>
+<li><a href="https://www.sarasoueidan.com/">Sara Soueidan</a></li>
+<li><a href="https://piccalil.li/blog/">Andy Bell</a></li>
+</ul>
 
-      <h3>industry experts</h3>
+            </div>
+         </div>
 
-      <p>Use this guide as a foundation to ensure that your code is optimised for good UX.</p>
-      
-      <p>Keep your skills up-to-date following and reading materials from these industry experts:</p>
-      
-      <ul class="content-list content-list--links">
-      <li><a href="https://www.miriamsuzanne.com/" target="_blank">Miriam Suzanne</a></li> 
-      <li><a href="https://labs.jensimmons.com/" target="_blank">Jen Simmons</a></li>
-      <li><a href="https://una.im/" target="_blank">Una Kravetz</a></li>
-      <li><a href="https://ishadeed.com/" target="_blank">Ahmad Shadeed</a></li>
-      <li><a href="https://rachelandrew.co.uk/" target="_blank">Rachel Andrew</a></li>
-      <li><a href="https://moderncss.dev/" target="_blank">Stephanie Eckles</a></li>
-      <li><a href="https://www.matuzo.at/" target="_blank">Manuel Matuzovic</a> + <a href="https://www.htmhell.dev/">HTMLell</a></li> 
-      <li><a href="https://www.sarasoueidan.com/" target="_blank">Sara Soueidan</a></li>
-      <li><a href="https://piccalil.li/blog/" target="_blank">Andy Bell</a></li>
-      </ul>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/testing">« Testing</a>
+            </li>
+            <li>
+               <div>Page</div>
+               8 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/examples"> »</a>
+            </li>
+         </ul>
+      </nav>
 
-        </div>
-     </div>
+   </main>
 
-
-   </article>
-  
-
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -385,8 +362,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -400,11 +376,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

@@ -1,25 +1,35 @@
 ---
-title: "Style your pages with Modern CSS"
-subtitle: "Write the styles of your website with less CSS"
-paragraphs: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
 layout: "_layouts/base.njk" 
-description: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+
+page:
+  title: "Style your pages with Modern CSS"
+  subtitle: "Write the styles of your website"
+  primary_msg: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+  description: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+
+pagesubnav:
+  previousUrlText: 'CSS Architecture'
+  previousUrl: '/css-architecture'
+  pageNumber: '6'
+  nextUrl: '/testing'
+  nextUrlText: 'Testing'
 ---
 
-<p class="dropcap">Designing an engaging and complex responsive layout is challenging, especially without using modern CSS properties and techniques to implement these designs.</p>
+Designing an engaging and complex responsive layout is challenging, especially without using modern CSS properties and techniques to implement these designs.
 
-<h3>Pay attention to frameworks</h3>
+### Problem: Pay attention to frameworks
 
-<p>Back then, we needed to rely on <em>external libraries, Javascript or heavy frameworks</em> to implement <strong>complex layouts</strong>, which impacted performance because of the heavy code-base.</p>
+Back then, we needed to rely on _external libraries, Javascript or heavy frameworks_ to implement **complex layouts**, which impacted performance because of the heavy code-base.
 
-<h3>Solve old-CSS problems with modern CSS</h3>
+### Solution: Build layouts with modern CSS
 
-<p>CSS has grown up, and over the last few years, new CSS properties have emerged, allowing us to implement complex, flexible and cutting-edge layouts with less CSS.</p>
-<p>The whole idea is to combine existing CSS with CSS layouts rules <em>(e.g. flexbox, CSS Grids, Container-Queries, and multi-columns...)</em> to <strong>save a lot of time</strong> in implementing <strong>engaging</strong> and <strong>performant</strong> layouts.</p>
+CSS has grown up, and over the last few years, new CSS properties have emerged, allowing us to implement complex, flexible and cutting-edge layouts with less CSS.
 
-<h3>Checklist</h3>
+The whole idea is to combine existing CSS with CSS layouts rules _(e.g. flexbox, CSS Grids, Container-Queries, and multi-columns...)_ to **save a lot of time** in implementing **engaging** and **performant** layouts.
 
-<h4 class="[ subtitle ][ text-grey-color ]">Tips for optimising and writing CSS</h4>
+### Checklist
+
+#### Tips for optimising and writing CSS
 
 <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
    <li>Did we use CSS Custom Properties to control foundation styles?</li>
@@ -33,17 +43,14 @@ description: "Consider writing the CSS of your pages using best-practices and Mo
    <li>Did enhance styles for keyboard navigation?</li>
 </ol>
 
-<h3>Takeaways</h3>
+### Takeaways
 
-<ul class="content-list">
-   <li>Use variables to control colors, spacing and typography</li>
-   <li>Use variable font to use granular weight and styles</li>
-   <li>Do we have a good rythm and visual hierarchy on our pages?</li>
-   <li>Use <a href="https://utopia.fyi/">Utopia</a> to generate a type and spacing scale</li>
-   <li>Apply the correct aspect-ratio on your images/media</li>
-   <li>Use the CSS Layout to build your pages</li>
-</ul>
-
+*   Use variables to control colors, spacing and typography
+*   Use variable font to use granular weight and styles
+*   Do we have a good rythm and visual hierarchy on our pages?
+*   Use [Utopia](https://utopia.fyi/) to generate a type and spacing scale
+*   Apply the correct aspect-ratio on your images/media
+*   Use the CSS Layout to build your pages
 
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
 <div class="[ resources__links ] [ flow ]">

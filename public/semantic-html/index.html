@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Semantic HTML | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Semantic HTML | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Semantic HTML | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,75 +209,50 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Semantic HTML</h1>
+               <h2>Work from the content-out to write semantic &amp; accessible HTML</h2>
+               <p class="primary-msg">Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Semantic HTML</h1>
-       <h2>Work from the content-out to write semantic &amp; accessible HTML</h2>
-      
-       <p class="primary-msg">Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap" fetchpriority="high">Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
 <h3>The problem</h3>
 <p>One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.</p>
 <h3>Solution</h3>
-<p>To avoid implementing inaccessible pages, describe every element present in the design you need to code.</p>
-
-<p>Then, to implement your designs, use semantic HTML to write meaningful markup; this approach will allow you to code pages that are machine-readable, accessible, and optimised for SEO.</p>
-
-      
-      <h3>Checklist</h3>
-       <h4 class="[ subtitle ][ text-grey-color ]">Start from the content to write meaningful HTML and set up a good foundation for accessibility.</h4>
-       
-           <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
-          
-          <li>Did we describe every element that is on the page? <em class="text-grey-color">(e.g. Heading? Is it an article? Is it a running text composed of paragraphs? Section? Tab? Menu? Paragraph? Button? Link? List?…)</em></li>
-
-          <li>Did we use a naming convention to name our classes?</li>
-          
-          <li>Did we use minimum semantic HTML tags to structure our pages?</li>
-          
-          <li>Did we respect the content flow and hierarchy on pages?</li>
-          
-          <li>Did we optimise images for screen readers?</li>
-          
-          <li>Did we use ARIA to improve accessibility where necessary?</li>
-          
-          <li>Did we add ARIA on interactive elements?</li>
-          
-          <li>Did we add page descriptions <em>(metatags)</em>?</li>
-          
-          <li>Did we structure our <code class="code">&lt;head&gt;</code> section properly?</li>
-                                                   
-      </ol>
-      
-      <h3>Takeaways</h3>
-
-      <ul class="content-list">
-        <li>Use native semantic HTML tags to markup the content</li>
-        <li>Use a clear naming convention like <em>BEM Methodology</em> to name your classes</li>
-        <li>Don't use unecessary non semantic tags to structure your pages</li>
-        <li>Structure the content with clear headings (e.g. h1, h2, h3, h4…)</li>
-        <li>Use <code class="code">alt="..."</code> attributes to describe each images</li>
-        <li>Use ARIA landmark roles and ARIA labels to enhance accessibility</li>
-        <li>Use metatags on <code class="code">&lt;head&gt;</code> section to describe your web pages</li>
-      </ul>
-      
-        <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
+<p>To avoid implementing inaccessible pages, use semantic HTML to write meaningful pages and enhance critical aspects like <a href="https://boagworld.com/dev/semantic-code-in-html/">accessibility, SEO, cross-device compatibility and page load times</a>.</p>
+<h3>Checklist</h3>
+<h4 class="[ subtitle ][ text-grey-color ]">Start from the content to write meaningful HTML and set up a good foundation for accessibility.</h4>
+<ol class="[ special-list ][ special-list--checklist bg-white-color ]">       
+  <li>Did we describe every element that is on the page? <em class="text-grey-color">(e.g. Heading? Is it an article? Is it a running text composed of paragraphs? Section? Tab? Menu? Paragraph? Button? Link? List?…)</em></li>
+  <li>Did we use a naming convention to name our classes?</li>
+  <li>Did we use minimum semantic HTML tags to structure our pages?</li>
+  <li>Did we respect the content flow and hierarchy on pages?</li>
+  <li>Did we optimise images for screen readers?</li>
+  <li>Did we use ARIA to improve accessibility where necessary?</li>
+  <li>Did we add ARIA on interactive elements?</li>
+  <li>Did we add page descriptions <em>(metatags)</em>?</li>
+  <li>Did we structure our <code class="code">&lt;head&gt;</code> section properly?</li>
+ </ol>
+<h3>Takeaways</h3>
+<ul>
+<li>Use native semantic HTML tags to markup the content</li>
+<li>Use a clear naming convention like <em>BEM Methodology</em> to name your classes</li>
+<li>Don't use unecessary non semantic tags to structure your pages</li>
+<li>Structure the content with clear headings (e.g. h1, h2, h3, h4…)</li>
+<li>Use <code>alt=&quot;...&quot;</code> attributes to describe each images</li>
+<li>Use ARIA landmark roles and ARIA labels to enhance accessibility</li>
+<li>Use metatags on <code>&lt;head&gt;</code> section to describe your web pages</li>
+</ul>
+ <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
             <h3>Resource</h3>
             <p>Links for further reading:</p>
@@ -310,21 +279,33 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
-
-                </section>
-    </figure>
+<p></section>
+</figure></p>
 </div>
       </section>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/setup">« Setup</a>
+            </li>
+            <li>
+               <div>Page</div>
+               3 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/performance">Performance »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -339,8 +320,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -354,11 +334,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

@@ -1,29 +1,39 @@
 ---
-title: "CSS architecture"
-subtitle: "Speed-up developement time with a clear CSS structure"
-paragraphs: "A modern approach to speed up development time, support performance, scalability and maintainability."
 layout: "_layouts/base.njk" 
-description: "A modern approach to speed up development time, support performance, scalability and maintainability."
+
+page:
+  title: "CSS architecture"
+  subtitle: "Speed-up developement time with a clear CSS structure"
+  primary_msg: "A modern approach to speed up development time, support performance, scalability and maintainability."
+  description: "A modern approach to speed up development time, support performance, scalability and maintainability."
+
+pagesubnav:
+  pageNumber: '5'
+  previousUrlText: 'Performance'
+  previousUrl: '/performance'
+  nextUrl: '/modern-css'
+  nextUrlText: 'Modern CSS'
 ---
 
-<p class="dropcap" fetchpriority="high">As websites can get bigger, keeping your CSS codebase clean, scalable, maintainable, and light is critical to support performance and speed-up development time.</p>
+As websites can get bigger, keeping your CSS codebase clean, scalable, maintainable, and light is critical to support performance and speed-up development time.
 
-<h3>CSS can lead you to chaos</h3>
+### Problem: Bad CSS structure leads to chaos
 
-<p>Without a clear logic for organising your CSS, it's easy to end up with a <strong>chaotic system</strong> and <strong>heavy CSS files</strong> — with duplicated properties — that highly impact your site's performance and user experience. </p>
+Without a clear logic for organising your CSS, it's easy to end up with a **chaotic system** and **heavy CSS files** — with duplicated properties — that highly impact your site's performance and user experience.
 
-<p>Also, without a consistent CSS architecture, navigating through the CSS can become a nightmare for you or any other developer that needs to work on your stylesheets.</p>
+Also, without a consistent CSS architecture, navigating through the CSS can become a nightmare for you or any other developer that needs to work on your stylesheets.
 
-<h3>Speed up your work and performance</h3>
+### Solution: Organise your CSS files
 
-<p>To <strong>gain efficiency</strong> and <strong>optimise your CSS for performance</strong>, architect your CSS files in a way that embraces CSS Cascading and inheritance.</p>
+To **gain efficiency** and **optimise your CSS for performance**, architect your CSS files in a way that embraces CSS Cascading and inheritance.
 
-<p>Our process of writing and structuring CSS files is based on <a href="https://sass-lang.com/">SASS</a> and takes inspiration from the <a href="https://cube.fyi/">CUBE CSS Methodology</a>.</p>
-<p>We use this approach to build a clean CSS codebase, by using the power of the CSS cascade algorithm and inheritance.</p>
+Our process of writing and structuring CSS files is based on [SASS](https://sass-lang.com/) and takes inspiration from the [CUBE CSS Methodology](https://cube.fyi/).
 
- <h4 class="[ subtitle ][ text-grey-color ]">Overview of our CSS files architecture</h4>
+We use this approach to build a clean CSS codebase, by using the power of the CSS cascade algorithm and inheritance.
 
-      <pre class="code-block"><code>Sass/
+#### Overview of our CSS files architecture
+
+ <pre class="code-block"><code>Sass/
         
 1. base/
         _mixins.scss
@@ -80,7 +90,7 @@ styles.scss
   
   <header class="flow">
       
-    <p><strong>This layer includes the high-level CSS rules, the foundation styles and global custom properties variables of the design.</strong></p>
+  <p><strong>This layer includes the high-level CSS rules, the foundation styles and global custom properties variables of the design.</strong></p>
   </header>
   
   <h5 class="text-primary-color">_settings.scss:</h5>
@@ -161,11 +171,10 @@ styles.scss
 <li class="flow">
   <details class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="[ subtitle ][ h5 ]">4. Site specific</h4></summary>   
-  
-  
+ 
   <header class="flow">
     
-    <p><strong>This layer contains the CSS rules applied with the parent body class to style specific page—or content type layouts.</strong></p>
+  <p><strong>This layer contains the CSS rules applied with the parent body class to style specific page—or content type layouts.</strong></p>
 
   </header>
   
@@ -180,7 +189,7 @@ styles.scss
   
   <header class="flow">
     
-    <p><strong>This file includes the imported partials to generate the final <code class="code">style.css</code> file.</strong></p>
+  <p><strong>This file includes the imported partials to generate the final <code class="code">style.css</code> file.</strong></p>
 
   </header>
   
@@ -197,7 +206,6 @@ styles.scss
 <div class="[ cta-btn ][ outline ]">
   <a href="#">♠️  Download directly the boilerplate template here</a>
 </div>
-
 
 <h3>Takeaways</h3>
 

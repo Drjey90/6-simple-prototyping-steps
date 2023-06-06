@@ -19,6 +19,7 @@ Built in 1925, San Siro has a storied past that captivates fans and enthusiasts 
 San Siro's architecture embodies both elegance and grandeur. Designed by architect Ulisse Stacchini, the stadium initially had a capacity of 35,000 spectators. Over the years, it has undergone several renovations and expansions, resulting in its current capacity of approximately 75,000 seats. The distinctive characteristic of San Siro lies in its unique double-tiered stands that envelop the pitch, ensuring an intimate atmosphere where fans can truly immerse themselves in the game. The impressive structure showcases the perfect blend of functionality, aesthetics, and acoustic engineering, creating an unforgettable experience for all those within its walls.
 
 ## Magic Moments
+
 San Siro has witnessed a plethora of unforgettable footballing moments that have solidified its place in sporting history. The stadium has hosted numerous UEFA Champions League finals, including the legendary "Battle of Champions" in 1963, where A.C. Milan triumphed over Benfica. It has also been the stage for iconic matches between Milan and Inter Milan, popularly known as the "Derby della Madonnina," which showcases the fierce rivalry between the two clubs.
 
 San Siro has played host to international tournaments as well, such as the FIFA World Cup in 1934 and 1990, and the UEFA European Championship in 1980. These global events brought together footballing giants, captivating millions of fans around the world.

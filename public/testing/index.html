@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Usability &amp;amp; browser testing | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Test your prototype on different browser and do usability testing to address any critical issues before going live."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Usability &amp;amp; browser testing | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Test your prototype on different browser and do usability testing to address any critical issues before going live."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Usability &amp;amp; browser testing | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Test your prototype on different browser and do usability testing to address any critical issues before going live."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,73 +209,93 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Usability &amp; browser testing</h1>
+               <h2>Test your prototype early and often.</h2>
+               <p class="primary-msg">Make sure to test your prototype to address any critical issues before going live.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Usability &amp; browser testing</h1>
-       <h2>Test your prototype early and often.</h2>
-      
-       <p class="primary-msg">Make sure to test your prototype to address any critical issues before going live.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
- 
-      <p class="dropcap">Test primary user-flows with real users to assess the efficiency of your interfaces including critical functionalities to avoid any issues that could compromise the UX.</p>
-
-      <h3>Checklist</h3>
-      <h4 class="subtitle text-grey-color">Tips for optimising and writing CSS</h4>
-       
-      <ol class="special-list special-list--checklist bg-white-color">
-          <li>Did we test our prototype on different devices?</li>
-          
-          <li>Did we test the prototype on different browsers?</li>
-          
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Most websites fail at reaching business objectives because the most critical flows and user stories haven’t been appropriately tested before putting the website in production.</p>
+<h3>Problem: No testing is very expensive</h3>
+<p>Once in production, it’s <strong>very costly</strong> to revert — or fix any issues that compromise the user experience and the business behind the product.</p>
+<p>Without testing your designs before putting your website live, you will likely build a product with <strong>critical usability issues</strong> that frustrate users, make the business lose money and be expensive to solve.</p>
+<h3>Solution: Test your designs</h3>
+<p>To ensure you build the right product, <strong>test your prototype with real users</strong> and on <strong>different devices</strong> to check that everything works as expected.</p>
+<p>Once you test and collect feedback, iterate your work until the work meets the desired objectives for users and the business.</p>
+<p>With this approach, you will produce a website that will deliver massive value and won’t make changes or updates based on guesswork.</p>
+<h3>Checklist</h3>
+<h4>Tips for optimising and writing CSS</h4>
+ <ol class="special-list special-list--checklist bg-white-color">
+        <li>Did we test our prototype on different devices?</li>    
+      <li>Did we test the prototype on different browsers?</li>
           <li>Did we test the overall usability of our prototype?</li>
-          
           <li>Did we test the primary <em>user-flows / user-stories</em>?</li>
-          
-          <li>Did we test the visual <em>hierarchy</em> and <em>navigation</em>?</li>
+<li>Did we test the visual <em>hierarchy</em> and <em>navigation</em>?</li>
+<li> Did we run a performance check?</li>
+ </ol>
+<h3>Takeaways</h3>
+<ul>
+<li>Test your prototype early and often</li>
+<li>Test your prototype with at least 1-3 real person</li>
+<li>Test on different devices to see how your design adapts to screens</li>
+<li>Use <a href="https://gtmetrix.com/">GTMetrix</a>, <a href="https://yellowlab.tools/">Yellow Lab</a> or <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> to test performance</li>
+<li>After running the tests, refine and iterate.</li>
+</ul>
+<section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
+          <div class="[ resources__links ][ flow ]">
+            <h3>Resource</h3>
+            <p>Links for further reading:</p>
+          <ul class="content-list">
+             <li><a href="https://boagworld.com/usability/usability-testing/">How to Get Started With Usability Testing</a></li>
+           </ul>
+          </div>
+            <div class="book-wrapper">
+     <header>
+         <h3>Don't Start With Visuals</h3>
+         <p class="tertiary text-grey-color">By Jerome Kalumbu</p>
+      </header>
+    <figure class="book flow" data-gap="gap">
+                <a href="https://www.jerome-kalumbu.com/dont-start-with-visuals"><img alt="Don't Start With Visuals Book" src="https://jk2020.sirv.com/book/book-visual-hd.png" width="500" height="500"></a>
+                <section class="book__info">
+                <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
+                <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
+<p></section>
+</figure></p>
+</div>
+      </section>
 
-         <li> Did we run a performance check?</li>
-                                    
-      </ol>
-      
-      <h3>Takeaways</h3>
-      
-      <ul class="content-list">
-        <li>Test your prototype early and often</li>
-        <li>Test your prototype with at least 1-3 real person</li>
-        <li>Test on different devices to see how your design adapts to screens</li>
-        <li>Use <a href="https://gtmetrix.com/">GTMetrix</a>, <a href="https://yellowlab.tools/">Yellow Lab</a> or <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> to test performance</li>
-        <li>After running the tests, refine and iterate.</li>
-      </ul>
-      
-      <h3>Ressource</h3>
-      <ul class="content-list">
-      <li><a href="https://boagworld.com/usability/usability-testing/">How to Get Started With Usability Testing</a></li>
-      </ul>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/modern-css">« Modern CSS</a>
+            </li>
+            <li>
+               <div>Page</div>
+               7 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/examples">Design examples »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -296,8 +310,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -311,11 +324,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

@@ -22,7 +22,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -74,11 +73,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,11 +87,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
- <body class="[ article ] [ article-template-2 ] [ article-template ]">  
+ <body class="[ article ][ article-template-2 ] [ article-template ]">  
     <a href="#content" class="skip-link">Skip to content</a>
  
 
-	<div class="logo">
+	<header class="logo">
   			
             <a href="/" aria-label="6 Simple Prototyping Steps - home">
              <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -135,7 +132,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                 </g>
                 </svg>
             </a>
-  	</div>
+  	</header>
 
  <main id="content" tabindex="-1">
    <article class="flow post section">
@@ -149,12 +146,12 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
      </section>
     <section class="grid twelve" data-gap="gap">  
         <header class="flow">
-          <time>26 mai 2023</time>
+          <time>6 juin 2023</time>
             <h1 class="text-primary-color">Stadio San Siro</h1>
             <p class="primary-msg">San Siro an iconic symbol of football&#39;s rich history and passion in Milan, Italy</p>
         </header>
         
-        <div class="post__main flow">
+        <div class="[ article__content ][ flow ]">
             <h2>A Historical Marvel</h2>
 <p>Built in 1925, San Siro has a storied past that captivates fans and enthusiasts alike. It was initially intended to be the new home for both Milanese clubs, A.C. Milan and Inter Milan, replacing their former grounds. The stadium was named after Giuseppe Meazza, an Italian football legend who represented both clubs with distinction. From its early days, San Siro became synonymous with football excellence and fan devotion, establishing itself as a cauldron of emotions and an iconic landmark in the city.</p>
 <h2>Architectural Brilliance</h2>
@@ -185,15 +182,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
   <li><a href="example-9.html">8</a></li>-->
     
           <li>
-            <a href="/blog/chicca/">1</a>
-          </li>
-         
-          <li>
             <a href="/blog/bari-vecchia/">2</a>
           </li>
          
           <li>
             <a href="/blog/stadio-san-siro/">3</a>
+          </li>
+         
+          <li>
+            <a href="/blog/porsche-pushes-the-boundaries-of-automotive/">1</a>
           </li>
         
   </ul>
@@ -212,25 +209,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
-
-
- <script>
-
-		 $('#hamburger').click(function(){
-		   $('.main-nav').toggleClass('active');
-		   $('body').toggleClass('nav-is-open');
-		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
-			  if (x == "true") 
-			  {
-			  x = "false"
-			  } else {
-			  x = "true"
-			  }
-			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
-		 });
-		 
-		
-	 </script>
  
  </body>
  </html>

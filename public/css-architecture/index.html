@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>CSS architecture | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="A modern approach to speed up development time, support performance, scalability and maintainability."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="CSS architecture | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="A modern approach to speed up development time, support performance, scalability and maintainability."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="CSS architecture | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="A modern approach to speed up development time, support performance, scalability and maintainability."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,46 +209,31 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>CSS architecture</h1>
+               <h2>Speed-up developement time with a clear CSS structure</h2>
+               <p class="primary-msg">A modern approach to speed up development time, support performance, scalability and maintainability.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>CSS architecture</h1>
-       <h2>Speed-up developement time with a clear CSS structure</h2>
-      
-       <p class="primary-msg">A modern approach to speed up development time, support performance, scalability and maintainability.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap" fetchpriority="high">As websites can get bigger, keeping your CSS codebase clean, scalable, maintainable, and light is critical to support performance and speed-up development time.</p>
-
-<h3>CSS can lead you to chaos</h3>
-
-<p>Without a clear logic for organising your CSS, it's easy to end up with a <strong>chaotic system</strong> and <strong>heavy CSS files</strong> — with duplicated properties — that highly impact your site's performance and user experience. </p>
-
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>As websites can get bigger, keeping your CSS codebase clean, scalable, maintainable, and light is critical to support performance and speed-up development time.</p>
+<h3>Problem: Bad CSS structure leads to chaos</h3>
+<p>Without a clear logic for organising your CSS, it's easy to end up with a <strong>chaotic system</strong> and <strong>heavy CSS files</strong> — with duplicated properties — that highly impact your site's performance and user experience.</p>
 <p>Also, without a consistent CSS architecture, navigating through the CSS can become a nightmare for you or any other developer that needs to work on your stylesheets.</p>
-
-<h3>Speed up your work and performance</h3>
-
+<h3>Solution: Organise your CSS files</h3>
 <p>To <strong>gain efficiency</strong> and <strong>optimise your CSS for performance</strong>, architect your CSS files in a way that embraces CSS Cascading and inheritance.</p>
-
 <p>Our process of writing and structuring CSS files is based on <a href="https://sass-lang.com/">SASS</a> and takes inspiration from the <a href="https://cube.fyi/">CUBE CSS Methodology</a>.</p>
 <p>We use this approach to build a clean CSS codebase, by using the power of the CSS cascade algorithm and inheritance.</p>
-
- <h4 class="[ subtitle ][ text-grey-color ]">Overview of our CSS files architecture</h4>
-
-      <pre class="code-block"><code>Sass/
+<h4>Overview of our CSS files architecture</h4>
+ <pre class="code-block"><code>Sass/
         
 1. base/
         _mixins.scss
@@ -299,50 +278,32 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 styles.scss
 
 </code></pre>
-
 <h3>File structure breakdown</h3>
-
 <p>Let’s detail each folder and files:</p>
-
 <ul class="[ tab-items ][ flow l-rs ]">
 <li class="flow">
   <details class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="h5 subtitle">1. Base</h4></summary>   
-  
   <header class="flow">
-      
-    <p><strong>This layer includes the high-level CSS rules, the foundation styles and global custom properties variables of the design.</strong></p>
+  <p><strong>This layer includes the high-level CSS rules, the foundation styles and global custom properties variables of the design.</strong></p>
   </header>
-  
   <h5 class="text-primary-color">_settings.scss:</h5>
   <p>This file contains the global variables for foundation styles of the website<em>(e.g. spacing, color, typography…).</em></p>
-
   <h5 class="text-primary-color">_mixings.scss</h5>
-  
   <p>This file includes chunks of reusable CSS rules like media query breakpoints or a rule for specifying static font sizes.</p>
-  
   <h5 class="text-primary-color">_reset.scss</h5>
-  
   <p>This file contains the <a href="https://andy-bell.co.uk/a-modern-css-reset/">Modern CSS Reset file</a> from Andy Bell to reset the default browsers’ styles and avoid any inconsistencies across different browsers.</p>
-  
   <h5 class="text-primary-color">_system.scss</h5>
-  
   <p>This file contains all the CSS rules required to adjust the styles of the admin interface of your website.</p> 
-  
   <h5 class="text-primary-color">page/</h5>
-  
   <p>This folder contains page global, header and footer layout styles. These rules are organised under the following partial files:</p>
-   
   <ul class="content-list">
   <li>_global.scss</li>
   <li>_header.scss</li>
   <li>_footer.scss</li>
   </ul>
-  
   <h5 class="text-primary-color">typography/</h5>
-  
   <p>This folder contains partial files with CSS rules of common typographic elements such as <em>paragraphs, links or headings</em>.</p>
-    
   <ul class="content-list">
   <li>_links.scss</li>
   <li>_paragraphs.scss</li>
@@ -351,87 +312,49 @@ styles.scss
   <li>_tables.scss</li>
   <li>_other.scss</li>
   </ul>
-  
 </li>
-
-
 <li class="flow">
   <details  class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="[ subtitle ][ h5 ]">2. Utilities</h4></summary>   
-  
-  
   <header class="flow">
-    
    <p><strong>This layer includes a list of helper classes that consist of a single CSS rule or a group of related CSS rules useful to style multiple elements consistently and quickly.</strong></p>
-
   </header>
-  
   <p>To avoid repeating CSS rules, we use utility classes when appropriate to style HTML elements consistently.</p>
-  
   <p>Utility classes can contain a single property or a group of related CSS properties to define text colors, background colours, border radius, drop caps, borders or any other reusable style.</p>
-
 </li>
-
 <li class="flow">
   <details  class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="[ subtitle ][ h5 ]">3. Blocks</h4></summary>   
-  
-  
   <header class="flow">
-    
-    <p><strong>This layer contains files with specific CSS rules for each Building blocks that compose the layout.</strong></p>
-  
+<p><p><strong>This layer contains files with specific CSS rules for each Building blocks that compose the layout.</strong></p></p>
   </header>
-  
   <p>Blocks refer to a simple UI element like a button or a group of UI elements like a card, hero section or menu. The CSS rules are applied using the parent block class.</p>
-  
   <p>The benefit of styling a component using the block class is that the block will maintain its original style, regardless of the context it's placed in.</p>
-    
 </li>
-
 <li class="flow">
   <details class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="[ subtitle ][ h5 ]">4. Site specific</h4></summary>   
-  
-  
   <header class="flow">
-    
-    <p><strong>This layer contains the CSS rules applied with the parent body class to style specific page—or content type layouts.</strong></p>
-
+  <p><strong>This layer contains the CSS rules applied with the parent body class to style specific page—or content type layouts.</strong></p>
   </header>
-  
   <p>This folder contains the partials files of individual pages, content-types or templates, including their specific CSS rules required to adjust/override the layout styles.</p> 
-
 </li>
-
 <li class="flow">
   <details class="[ tab-item ][ flow ]">
    <summary class="bg-primary-color"> <h4 class="[ subtitle ][ h5 ]">styles.scss</h4></summary>   
-  
-  
   <header class="flow">
-    
-    <p><strong>This file includes the imported partials to generate the final <code class="code">style.css</code> file.</strong></p>
-
+  <p><strong>This file includes the imported partials to generate the final <code class="code">style.css</code> file.</strong></p>
   </header>
-  
   <p>The <code class="code">style.scss</code> file is the source file where we import the required <code class="code">.scss</code> partials to create the final <code class="code">style.css</code> file that the browser will use to load the styles of your website.</p>
-    
 <pre class="code-block"><code>➜  assets sass --watch sass:css</code></pre>
-
 <p>This command tells SASS to preprocess the SASS files that are located inside <code class="code">/assets</code> and output the final css inside the folder <span class="code">/css</span>.</p>
-
 </li>
 </ul>
     </details>
-
 <div class="[ cta-btn ][ outline ]">
   <a href="#">♠️  Download directly the boilerplate template here</a>
 </div>
-
-
 <h3>Takeaways</h3>
-
 <ul class="content-list">
   <li>Write high-level CSS and global variables inside <code class="code">/base</code></li>
   <li>Use utility classes to style common elements consistently</li>
@@ -439,11 +362,9 @@ styles.scss
   <li>Add page or template-specific CSS inside <code class="code">/site-specific</code></li>
   <li>Keep your CSS styles light</li>
 </ul>
-
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
 <h3>Resources</h3>
-
 <ul class="content-list">
 <li><a href="https://www.youtube.com/watch?v=5uhIiI9Ld5M&ab_channel=Hey%21Presents">Andy Bell: Browser’s Mentor, Not Micromanager + Cube CSS</a></li>
 <li><a href="https://cube.fyi/#how-does-cube-css-compare-to-other-methodologies">CUBE CSS Methodology</a></li>
@@ -460,21 +381,33 @@ styles.scss
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
-
-                </section>
-    </figure>
+<p></section>
+</figure></p>
 </div>
       </section>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/performance">« Performance</a>
+            </li>
+            <li>
+               <div>Page</div>
+               5 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/modern-css">Modern CSS »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -489,8 +422,7 @@ styles.scss
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -504,11 +436,7 @@ styles.scss
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

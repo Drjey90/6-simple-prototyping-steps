@@ -4,6 +4,12 @@
 .posts{
 
   &__item{
+
+    margin-bottom: var(--space-l);
+
+    @include respond-to(tablets){
+      margin-bottom: 0;
+    }
   
     img{
       aspect-ratio: 16 / 9;

@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Project Setup | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Project Setup | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Project Setup | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,84 +209,66 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Project Setup</h1>
+               <h2>Setup a clean base to build your project under the right foundation</h2>
+               <p class="primary-msg">Start by setting up your project folder and organise your files following a clear structure to work efficiently.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Project Setup</h1>
-       <h2>Setup a clean base to build your project under the right foundation</h2>
-      
-       <p class="primary-msg">Start by setting up your project folder and organise your files following a clear structure to work efficiently.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap" fetchpriority="high">Since your website will require HTML, stylesheets, and media content to work, you will be required to make changes in various places to implement your designs.</p>
-
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Since your website will require HTML, stylesheets, and media content to work, you will be required to make changes in various places to implement your designs.</p>
 <h3>The problem</h3>
 <p>Without a clear file architecture, updating files can become a pain and impact your efficiency; a bad site structure and naming convention can also affect SEO.</p>
-
 <p>To prevent these issues, organise your project's files properly and use a clear naming convention to name your files.</p>
-
 <h3>The solution</h3>
-
 <p>This is how we generally structure any web project:</p>
-
-      <pre class="code-block"><code>Index.html
-About.html
-contact.html      
-assets
-├── css (style.css)
-├── img (images and icons) 
-├── fonts (includes your fonts if hosted locally)
-├── js (specific scripts files)
-└── sass (individual CSS partials)
-</code></pre>
+<pre class="code-block">
+  <code>Index.html
+  About.html
+  contact.html      
+  assets
+  ├── css (style.css)
+  ├── img (images and icons) 
+  ├── fonts (includes your fonts if hosted locally)
+  ├── js (specific scripts files)
+  └── sass (individual CSS partials)
+  </code>
+</pre>
 <p><em>We will dive deep into the structure of our SASS folder and explain how you can use partials to generate your end CSS file.</em></p>
-
- <h3>Checklist</h3>
- <h4 class="[ subtitle ][ text-grey-color ]">Make sure to check each points</h4>
- 
+<h3>Checklist</h3>
+<h4>Make sure to check each points</h4>
  <ol class="[ special-list ][ special-list--checklist bg-white-color ]">
-    
     <li>Did we organise properly our assets files?</li>
     <li>Do we have SASS correctly configured?</li>
     <li>Did we organise our HTML files properly?</li>
     <li>Can we self-host our fonts?</li>
     <li>Do we have a clear naming convention for our files?</li>
-                  	          	          
 </ol>
-
 <h3>Takeaways</h3>
-
-<ul class="content-list">
-  <li>Create  a <span class="code">/assets</span> folder to host all your assets files</li>
-  <li>Put your <em>images</em>, <em>CSS</em>, <em>fonts</em> and <em>js</em> files inside their respective folders</li>
-  <li>Put your local fonts inside a <span class="code">/fonts</span> sub-folder</li>
-  <li>Use <em>SASS</em> to write and organise well your <em>CSS</em></li>
-  <li>Keep your <em>HTML</em> files at the root of your project</li>
-  <li>Use lowercases and hyphens to name your files</li> 
-
+<ul>
+<li>Create a <code>/assets</code> folder to host all your assets files</li>
+<li>Put your <em>images</em>, <em>CSS</em>, <em>fonts</em> and <em>js</em> files inside their respective folders</li>
+<li>Put your local fonts inside a <code>/fonts</code> sub-folder</li>
+<li>Use <em>SASS</em> to write and organise well your <em>CSS</em></li>
+<li>Keep your <em>HTML</em> files at the root of your project</li>
+<li>Use lowercases and hyphens to name your files</li>
 </ul>
-
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
-        <h3>Resource</h3>
-        <p>Links for further reading:</p>
-        <ul class="content-list">
-          <li><a href="https://sass-lang.com/install">Install Sass</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a></li>
-        </ul>
+            <h3>Resource</h3>
+            <p>Links for further reading:</p>
+            <ul class="content-list">
+              <li><a href="https://sass-lang.com/install">Install Sass</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a></li>
+            </ul>
         </div>
             <div class="book-wrapper">
      <header>
@@ -304,21 +280,33 @@ assets
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
-
-                </section>
-    </figure>
+<p></section>
+</figure></p>
 </div>
       </section>
+            </div>
+         </div>
 
-        </div>
-     </div>
+      </article>
 
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/">« Home</a>
+            </li>
+            <li>
+               <div>Page</div>
+               2 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/semantic-html/">HTML &amp; Accessibility »</a>
+            </li>
+         </ul>
+      </nav>
 
-   </article>
-  
+   </main>
 
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -333,8 +321,7 @@ assets
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -348,11 +335,7 @@ assets
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

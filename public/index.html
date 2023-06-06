@@ -1,5 +1,4 @@
-
-  
+ 
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 ********************************************************* -->
 
-<title>Prototyping principles | 6 Prototyping Steps</title>
+<title>6 Prototyping Steps</title>
 
 <link rel="preconnect" href="https://code.jquery.com">
 <link rel="preconnect" href="https://kit.fontawesome.com">
@@ -22,7 +21,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 <link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 
@@ -31,7 +29,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Search engines + Fallback for Facebook, Pinterest and LinkedIn -->
 <meta
       name="description"
-      content="Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
+      content="Guidelines to help designers implement healthy and high-performing websites"
 />
 
 
@@ -45,11 +43,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
     
     <meta
       name="twitter:title"
-      content="Prototyping principles | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="twitter:description"
-      content="Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta 
@@ -59,11 +57,11 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <!-- Social media sites Like Twitter, Pinterest, Facebook or LinkedIn -->
     <meta
       name="og:title"
-      content="Prototyping principles | 6 Prototyping Steps"
+      content="6 Prototyping Steps"
     />
     <meta
       name="og:description"
-      content="Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
+      content="Guidelines to help designers implement healthy and high-performing websites"
     />
 
     <meta  
@@ -74,11 +72,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
-  async="" 
-  defer=""
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous">
+  crossorigin="anonymous" >
 </script>
 
 <script 
@@ -90,14 +86,14 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 </head>
 
-<body class="[ front ][ default-template ][ grid ]">
-    <a href="#content" class="skip-link">Skip to content</a>
+<body class="[ front ][ article ][ default-template ][ grid ]">
 
+   <a href="#content" class="skip-link">Skip to content</a>
 
-
-<aside class="sidebar">
-  <header class="page-header">
-  <div class="logo">
+   <aside class="sidebar">
+      
+      <header class="page-header">
+         <div class="logo">
   			
   	<a href="/" aria-label="6 Simple Prototyping Steps - home">
 		  <svg aria-hidden="true" focusable="false" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve">
@@ -191,17 +187,15 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		  
 			<li>
 				<a href="/examples/" 
-				>Design example</a
+				>Design examples</a
 				>
 			</li>
 		  
 	  </ul>
 </nav>
-  </header>
-  
-    
-    
-    
+      </header>
+
+      
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -215,54 +209,36 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
+   </aside>
 
+   <main id="content" tabindex="-1">
 
-    
-      
-</aside>
+      <article class="[ post ][ flow section ]">
+         <header class="[ article__header ][ section flow bg-primary-color ]">
+            <div class="[ container ][ grid twelve ]">
+               <h1 fetchpriority=high>Prototyping principles</h1>
+               <h2>Six simple steps for coding effective interfaces in HTML &amp; CSS</h2>
+               <p class="primary-msg">Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience.</p>
+            </div>
+         </header>
 
- <main id="content" tabindex="-1">
-   
-   <article class="[ post ][ flow section ]">
-     
-     <header class="[ article__header ][ section flow bg-primary-color ]">
-       <div class="[ container ][ grid twelve ]">
-       <h1 fetchpriority=high>Prototyping principles</h1>
-       <h2>Six simple steps for coding effective interfaces in HTML &amp; CSS</h2>
-      
-       <p class="primary-msg">Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience.</p>
-       </div>
-     </header>
-    
-     <div class="[ article__content ][ section ]">
-        <div class="[ container ][ grid twelve flow ]">
-            
-<p class="dropcap" fetchpriority="high">
-Once your key pages are fully mocked-up and you have an idea of the design direction, code a prototype in HTML and CSS that you can test and use as a blueprint to implement your website.
-</p>
-
-<h3>Why an HTML & CSS prototype?</h3>
-
-<p>A prototype in HTML & CSS will allow you to quickly assemble responsive layouts, experiment with typography and grids, test interactions, and iterate cost-effectively to ensure that you build the best product for your users.
-<p>Prototyping is the foundation for coding static websites.</p>
-
+         <div class="[ section ]">
+            <div class="[ article__content ][ container ][ grid twelve flow ]">
+               <p>Once your key pages are fully mocked-up and you have an idea of the design direction, code a prototype in HTML and CSS that you can test and use as a blueprint to implement your website.</p>
+<h3>Why an HTML &amp; CSS prototype?</h3>
+<p>A prototype in HTML &amp; CSS will allow you to quickly assemble responsive layouts, experiment with typography and grids, test interactions, and iterate cost-effectively to ensure that you build the best product for your users.
+Prototyping is the foundation for coding static websites.</p>
 <h3>A blueprint for developers</h3>
-
-<p>If the final build will be done by developers on a CMS, creating a prototype in HTML & CSS will allow you to:
-</p>
+<p>If the final build will be done by developers on a CMS, creating a prototype in HTML &amp; CSS will allow you to:</p>
 <ol class="content-list">
-<li>Create a blueprint that developers can follow to implement the designs;</li>
-<li>Save time in preparing assets such as HTML files, including CSS.</li>
+  <li>Create a blueprint that developers can follow to implement the designs;</li>
+  <li>Save time in preparing assets such as HTML files, including CSS.</li>
 </ol>
-
 <h3>The 6 Simple Prototyping Steps</h3>
-
 <p><em>The 6 Simple Prototyping Steps</em> is a breakdown of our process in 6 steps to help you implement <strong>high-performing</strong> interfaces <strong>quickly</strong> in HTML &amp; CSS following best practices in accessibility, progressive enhancement, performance and CSS.</p>
-<p>These checklists and best practices have been created and curated based on 8 years of designing and implementing custom website designs. </p>
-
- <h3>These are our prototyping principles</h3>
-<h4 class="subtitle text-grey-color">Take into consideration performance and accessibility</h4> 
-
+<p>These checklists and best practices have been created and curated based on 8 years of designing and implementing custom website designs.</p>
+<h3>These are our prototyping principles</h3>
+<h4>Take into consideration performance and accessibility</h4>
 <ol class="special-list bg-primary-color">
    <li><a href="/setup/">Setup your project</a></li>
    <li><a href="/semantic-html/">Write Semantic HTML</a></li>	 
@@ -270,42 +246,49 @@ Once your key pages are fully mocked-up and you have an idea of the design direc
    <li><a href="/css-architecture/">Use a clear CSS methodology</a></li>
    <li><a href="/modern-css/">Write Modern CSS</a></li>
    <li><a href="/testing/">Test, learn, iterate</a></li>	 	                   	          	          
- </ol> 	              
- 
- <p>By following these principles, you will be able to:</p>
- 
- <ul class="content-list">
- <li>Implement responsive designs using semantic HTML and Modern CSS;</li> 
- <li>Test early concepts effectively to avoid costly errors; </li>
- <li>Optimise your website for better performance and accessibility; </li>
- <li>Organise and maintain better your CSS; </li>
- <li>Have a prototype ready to be implemented on a CMS;</li> 
- <li>Build user-friendly interfaces.</li>
-
- </ul>
-
+</ol> 	              
+<h3>By following these principles, you will be able to:</h3>
+<ul>
+<li>Implement responsive designs using semantic HTML and Modern CSS;</li>
+<li>Test early concepts effectively to avoid costly errors;</li>
+<li>Optimise your website for better performance and accessibility;</li>
+<li>Organise and maintain better your CSS;</li>
+<li>Have a prototype ready to be implemented on a CMS;</li>
+<li>Build user-friendly interfaces.</li>
+</ul>
 <h3>Results if you don't follow the principles</h3>
-<h4 class="subtitle text-grey-color">If the product fails, you will fail too</h4>
-    
-    <ol class="special-list bg-alert-color">
+<h4>If the product fails, you will fail too</h4>
+<ol class="special-list bg-alert-color">
       <li>Costly development time</li>
       <li>Bad performance</li>
       <li>Stuggle to mantain codebase</li>
       <li>You will stay confused</li>
       <li>Obsolete front-end skills</li>
-      <li>Product with poor UX</li>
-    </ol>
+      <li>Product with poor UX</li>	 	                   	          	          
+ </ol> 
+            </div>
+         </div>
 
+      </article>
 
-        </div>
-     </div>
+      <nav aria-label="secondary" class="footer-nav grid twelve">
+         <ul class="l-rs">
+            <li><strong>Previous</strong><br>
+               <a href="/">« </a>
+            </li>
+            <li>
+               <div>Page</div>
+               1 / 8
+            </li>
+            <li><strong>Next</strong><br>
+               <a href="/setup/">Project Setup »</a>
+            </li>
+         </ul>
+      </nav>
 
+   </main>
 
-   </article>
-  
-
- 	</main>
- 
+   
 	
 	<footer class="footer" role="contentinfo">
 					
@@ -320,8 +303,7 @@ Once your key pages are fully mocked-up and you have an idea of the design direc
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
-
- <script>
+ <script async="" defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -335,11 +317,7 @@ Once your key pages are fully mocked-up and you have an idea of the design direc
 			  }
 			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
 		 });
-		 
 		
 	 </script>
- 
- </body>
- </html>
- 
-   
+</body>
+</html>

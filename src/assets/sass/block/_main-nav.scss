@@ -16,6 +16,10 @@
       border-bottom: 1px dashed var(--color-border);
       padding: var(--space-s) 0;
     }
+
+    li:last-of-type{
+      border-bottom: none;
+    }
     
     a{
       --linkcolor: #000;

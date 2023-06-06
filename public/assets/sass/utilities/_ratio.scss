@@ -2,6 +2,10 @@
 -------------------------------------------*/
 
 .ratio{
-  aspect-ratio: var(--aspect-ratio);
+  aspect-ratio: 1;
   object-fit: cover;
+  
+  @include respond-to(desktop){
+    aspect-ratio: var(--aspect-ratio);
+  }
 }
