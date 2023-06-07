@@ -1,11 +1,11 @@
 ---
 layout: _layouts/base.njk
-tags: ["guidelines"]
-
+tags:
+  - guidelines
 title: Semantic HTML
 description: >-
-  AlfieCode your pages with semantic HTML to enhance accessibility and optimise
-  your website for SEO.
+  Code your pages with semantic HTML to enhance accessibility and optimise your
+  website for SEO.
 primary_msg: >-
   Writing semantic HTML is the foundation for coding pages that are meaningful,
   accessible and optimised for SEO.
@@ -13,7 +13,7 @@ date: 2023-06-07T15:10:01.044Z
 pageNumber: '3'
 previousUrlText: Setup
 previousUrl: /setup
-NextUrlText: test
+NextUrlText: Performance
 nextUrl: /performance
 ---
 
