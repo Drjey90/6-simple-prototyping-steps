@@ -23,7 +23,7 @@
         margin-top: 0;
     }
 
-    @include respond-to(desktop){
+    @include respond-to(desktop-wide){
         width: 245px;
     }
 
