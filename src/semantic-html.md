@@ -1,5 +1,7 @@
 ---
 layout: _layouts/base.njk
+tags: ["guidelines"]
+
 title: Semantic HTML
 description: >-
   AlfieCode your pages with semantic HTML to enhance accessibility and optimise

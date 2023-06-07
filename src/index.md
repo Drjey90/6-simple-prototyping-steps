@@ -1,4 +1,5 @@
 ---
+layout: _layouts/base.njk
 bodyClass: "[ front ]"
 title: "Prototyping principles"
 
