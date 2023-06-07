@@ -51,7 +51,9 @@
 
    {% include 'partials/_footer.njk' %}
 
- <script async="" defer="">
+ <script 
+ async="" 
+ defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -67,5 +69,18 @@
 		 });
 		
 	 </script>
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
 </body>
 </html>

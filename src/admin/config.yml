@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/assets/img/uploads" # Folder where user uploaded files should go
+pubic_folder: "/assets/img/uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "guidelines" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Guideline" # Used in the UI, e.g., "New Post"
+    folder: "src/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Primary message", name: "primary_msg", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Page number", name: "pageNumber", widget: "string"}
+      - {label: "Previous Url Text", name: "previousUrlText", widget: "string"}
+      - {label: "Previous Url Link", name: "previousUrl", widget: "string"}
+      - {label: "next Url Text", name: "NextUrlText", widget: "string"}
+      - {label: "next Url Link", name: "nextUrl", widget: "string"}

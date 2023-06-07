@@ -84,6 +84,10 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
   crossorigin="anonymous">  
 </script>
 
+<script 
+  defer=""
+  src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 
 <body class="[ article ][ default-template ][ grid ]">
@@ -322,7 +326,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
 
- <script async="" defer="">
+ <script 
+ async="" 
+ defer="">
 
 		 $('#hamburger').click(function(){
 		   $('.main-nav').toggleClass('active');
@@ -338,5 +344,18 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		 });
 		
 	 </script>
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
 </body>
 </html>
