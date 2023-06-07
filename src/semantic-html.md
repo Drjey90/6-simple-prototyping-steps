@@ -1,21 +1,23 @@
 ---
-layout: "_layouts/base.njk" 
-title: "Semantic HTML"
-
-subtitle: "Work from the content-out to write semantic & accessible HTML"
-primary_msg: "Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO."
-description: "Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
-
+layout: _layouts/base.njk
+title: Semantic HTML
+description: >-
+  AlfieCode your pages with semantic HTML to enhance accessibility and optimise
+  your website for SEO.
+primary_msg: >-
+  Writing semantic HTML is the foundation for coding pages that are meaningful,
+  accessible and optimised for SEO.
+date: 2023-06-07T15:10:01.044Z
 pageNumber: '3'
-nextUrl: '/performance'
-nextUrlText: 'Performance'
-previousUrlText: 'Setup'
-previousUrl: '/setup'
+previousUrlText: Setup
+previousUrl: /setup
+NextUrlText: test
+nextUrl: /performance
 ---
 
 Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.
 
-### The problem
+# The problem
 
 One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.
 
