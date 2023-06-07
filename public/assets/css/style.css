@@ -1566,6 +1566,11 @@ p + .tab-item:nth-of-type(1) {
     margin-top: 0;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .book {
+    width: 245px;
+  }
+}
 .book__info header {
   display: none;
 }
