@@ -1,6 +1,7 @@
 ---
 layout: _layouts/base.njk
 title: Optimise for performance
+subtitle: Consider performance right from the beginning
 description: >-
   Optimise your site for performance to deliver a good experience to users on
   the website.
@@ -11,7 +12,7 @@ date: 2023-06-07T19:31:02.029Z
 pageNumber: '4'
 previousUrlText: HTML & Accessibility
 previousUrl: /semantic-html
-NextUrlText: 'CSS Architecture'
+nextUrlText: CSS Architecture
 nextUrl: /css-architecture/
 ---
 

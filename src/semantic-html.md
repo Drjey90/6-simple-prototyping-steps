@@ -3,8 +3,7 @@ layout: _layouts/base.njk
 tags:
   - guidelines
 title: Semantic HTML
-subtitle: "Work from the content-out to write semantic & accessible HTML."
-
+subtitle: Work from the content-out to write semantic & accessible HTML.
 description: >-
   Code your pages with semantic HTML to enhance accessibility and optimise your
   website for SEO.
@@ -15,13 +14,13 @@ date: 2023-06-07T15:10:01.044Z
 pageNumber: '3'
 previousUrlText: Setup
 previousUrl: /setup
-nextUrlText: t
+nextUrlText: Performance
 nextUrl: /performance
 ---
 
 Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.
 
-# The problem
+### The problem
 
 One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.
 
