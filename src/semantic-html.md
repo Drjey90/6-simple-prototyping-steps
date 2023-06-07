@@ -3,8 +3,7 @@ layout: _layouts/base.njk
 tags:
   - guidelines
 title: Semantic HTML
-subtitle: "Work from the content-out to write semantic & accessible HTML."
-
+subtitle: Chicca Work from the content-out to write semantic & accessible HTML.
 description: >-
   Code your pages with semantic HTML to enhance accessibility and optimise your
   website for SEO.
