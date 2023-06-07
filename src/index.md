@@ -1,9 +1,9 @@
 ---
 layout: "_layouts/base.njk" 
 bodyClass: "[ front ]"
+title: "Prototyping principles"
 
 page:
-  title: "Prototyping principles"
   subtitle: "Six simple steps for coding effective interfaces in HTML & CSS"
   primary_msg: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
   description: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
