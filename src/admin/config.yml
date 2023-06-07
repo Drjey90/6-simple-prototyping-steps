@@ -15,9 +15,9 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "page.description", widget: "string"}
-      - {label: "Primary message", name: "page.primary_msg", widget: "string"}
-      - {label: "Publish Date", name: "page.date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Primary message", name: "primary_msg", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Page number", name: "pageNumber", widget: "string"}
       - {label: "Previous Url Text", name: "previousUrlText", widget: "string"}
