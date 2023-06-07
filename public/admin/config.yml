@@ -16,12 +16,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/base.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: ["guidelines"]}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
       - {label: "Primary message", name: "primary_msg", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Page number", name: "pageNumber", widget: "string"}
       - {label: "Previous Url Text", name: "previousUrlText", widget: "string"}
       - {label: "Previous Url Link", name: "previousUrl", widget: "string"}
-      - {label: "next Url Text", name: "NextUrlText", widget: "string"}
+      - {label: "next Url Text", name: "nextUrlText", widget: "string"}
       - {label: "next Url Link", name: "nextUrl", widget: "string"}

@@ -11,7 +11,7 @@ date: 2023-06-07T19:31:02.029Z
 pageNumber: '4'
 previousUrlText: HTML & Accessibility
 previousUrl: /semantic-html
-NextUrlText: CSS Architecture
+NextUrlText: 'CSS Architecture'
 nextUrl: /css-architecture/
 ---
 

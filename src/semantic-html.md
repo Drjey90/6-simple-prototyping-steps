@@ -3,6 +3,8 @@ layout: _layouts/base.njk
 tags:
   - guidelines
 title: Semantic HTML
+subtitle: "Work from the content-out to write semantic & accessible HTML."
+
 description: >-
   Code your pages with semantic HTML to enhance accessibility and optimise your
   website for SEO.
@@ -13,7 +15,7 @@ date: 2023-06-07T15:10:01.044Z
 pageNumber: '3'
 previousUrlText: Setup
 previousUrl: /setup
-NextUrlText: Performance
+nextUrlText: t
 nextUrl: /performance
 ---
 
