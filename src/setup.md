@@ -1,8 +1,8 @@
 ---
 layout: "_layouts/base.njk" 
+title: "Project Setup"
 
 page:
-  title: "Project Setup"
   subtitle: "Setup a clean base to build your project under the right foundation"
   primary_msg: "Start by setting up your project folder and organise your files following a clear structure to work efficiently."
   description: "Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."

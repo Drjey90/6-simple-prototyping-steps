@@ -1,9 +1,9 @@
 ---
 layout: "_layouts/base.njk" 
 bodyClass: "[ last-page ]"
+title: "Design examples"
 
 page:
-  title: "Design examples"
   subtitle: "Preview of the prototype of a dummy article."
   primary_msg: "A prototype with common elements and typesetting"
   description: "Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology."

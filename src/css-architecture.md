@@ -1,8 +1,8 @@
 ---
 layout: "_layouts/base.njk" 
+title: "CSS architecture"
 
 page:
-  title: "CSS architecture"
   subtitle: "Speed-up developement time with a clear CSS structure"
   primary_msg: "A modern approach to speed up development time, support performance, scalability and maintainability."
   description: "A modern approach to speed up development time, support performance, scalability and maintainability."

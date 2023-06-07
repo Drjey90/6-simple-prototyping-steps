@@ -1,8 +1,8 @@
 ---
 layout: "_layouts/base.njk" 
+title: "Usability & browser testing"
 
 page:
-  title: "Usability & browser testing"
   subtitle: "Test your prototype early and often."
   primary_msg: "Make sure to test your prototype to address any critical issues before going live."
   description: "Test your prototype on different browser and do usability testing to address any critical issues before going live."

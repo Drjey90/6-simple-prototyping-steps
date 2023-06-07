@@ -1,8 +1,8 @@
 ---
 layout: "_layouts/base.njk" 
+title: "Optimise for performance"
 
 page:
-  title: "Optimise for performance"
   subtitle: "Consider performance right from the beginning"
   primary_msg: "Optimise your site resources to improve page rendering times and deliver content quickly to users."
   description: "Optimise your site for performance to deliver a good experience to users on the website."

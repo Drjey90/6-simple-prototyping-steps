@@ -1,8 +1,8 @@
 ---
 layout: "_layouts/base.njk" 
+title: "Style your pages with Modern CSS"
 
 page:
-  title: "Style your pages with Modern CSS"
   subtitle: "Write the styles of your website"
   primary_msg: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
   description: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
