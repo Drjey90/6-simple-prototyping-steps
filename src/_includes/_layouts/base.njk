@@ -19,8 +19,8 @@
          <header class="[ article__header ][ section flow bg-primary-color ]">
             <div class="[ container ][ grid twelve ]">
                <h1 fetchpriority=high>{{ title }}</h1>
-               <h2>{{ page.subtitle }}</h2>
-               <p class="primary-msg">{{ page.primary_msg }}</p>
+               <h2>{{ subtitle }}</h2>
+               <p class="primary-msg">{{ primary_msg }}</p>
             </div>
          </header>
 
@@ -35,14 +35,14 @@
       <nav aria-label="secondary" class="footer-nav grid twelve">
          <ul class="l-rs">
             <li><strong>Previous</strong><br>
-               <a href="{{ pagesubnav.previousUrl }}">« {{ pagesubnav.previousUrlText }}</a>
+               <a href="{{ previousUrl }}">« {{ previousUrlText }}</a>
             </li>
             <li>
                <div>Page</div>
-               {{ pagesubnav.pageNumber }} / 8
+               {{ pageNumber }} / 8
             </li>
             <li><strong>Next</strong><br>
-               <a href="{{ pagesubnav.nextUrl }}">{{ pagesubnav.nextUrlText }} »</a>
+               <a href="{{ nextUrl }}">{{ nextUrlText }} »</a>
             </li>
          </ul>
       </nav>

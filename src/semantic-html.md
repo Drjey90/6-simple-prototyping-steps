@@ -2,17 +2,15 @@
 layout: "_layouts/base.njk" 
 title: "Semantic HTML"
 
-page:
-  subtitle: "Work from the content-out to write semantic & accessible HTML"
-  primary_msg: "Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO."
-  description: "Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
+subtitle: "Work from the content-out to write semantic & accessible HTML"
+primary_msg: "Writing semantic HTML is the foundation for coding pages that are meaningful, accessible and optimised for SEO."
+description: "Code your pages with semantic HTML to enhance accessibility and optimise your website for SEO."
 
-pagesubnav:
-  pageNumber: '3'
-  nextUrl: '/performance'
-  nextUrlText: 'Performance'
-  previousUrlText: 'Setup'
-  previousUrl: '/setup'
+pageNumber: '3'
+nextUrl: '/performance'
+nextUrlText: 'Performance'
+previousUrlText: 'Setup'
+previousUrl: '/setup'
 ---
 
 Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.

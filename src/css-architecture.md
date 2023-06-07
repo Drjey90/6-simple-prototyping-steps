@@ -2,17 +2,15 @@
 layout: "_layouts/base.njk" 
 title: "CSS architecture"
 
-page:
-  subtitle: "Speed-up developement time with a clear CSS structure"
-  primary_msg: "A modern approach to speed up development time, support performance, scalability and maintainability."
-  description: "A modern approach to speed up development time, support performance, scalability and maintainability."
+subtitle: "Speed-up developement time with a clear CSS structure"
+primary_msg: "A modern approach to speed up development time, support performance, scalability and maintainability."
+description: "A modern approach to speed up development time, support performance, scalability and maintainability."
 
-pagesubnav:
-  pageNumber: '5'
-  previousUrlText: 'Performance'
-  previousUrl: '/performance'
-  nextUrl: '/modern-css'
-  nextUrlText: 'Modern CSS'
+pageNumber: '5'
+previousUrlText: 'Performance'
+previousUrl: '/performance'
+nextUrl: '/modern-css'
+nextUrlText: 'Modern CSS'
 ---
 
 As websites can get bigger, keeping your CSS codebase clean, scalable, maintainable, and light is critical to support performance and speed-up development time.

@@ -2,17 +2,15 @@
 layout: "_layouts/base.njk" 
 title: "Usability & browser testing"
 
-page:
-  subtitle: "Test your prototype early and often."
-  primary_msg: "Make sure to test your prototype to address any critical issues before going live."
-  description: "Test your prototype on different browser and do usability testing to address any critical issues before going live."
+subtitle: "Test your prototype early and often."
+primary_msg: "Make sure to test your prototype to address any critical issues before going live."
+description: "Test your prototype on different browser and do usability testing to address any critical issues before going live."
 
-pagesubnav:
-  pageNumber: '7'
-  previousUrlText: 'Modern CSS'
-  previousUrl: '/modern-css'
-  nextUrl: '/examples'
-  nextUrlText: 'Design examples'
+pageNumber: '7'
+previousUrlText: 'Modern CSS'
+previousUrl: '/modern-css'
+nextUrl: '/examples'
+nextUrlText: 'Design examples'
 ---
 
 Most websites fail at reaching business objectives because the most critical flows and user stories haven’t been appropriately tested before putting the website in production.

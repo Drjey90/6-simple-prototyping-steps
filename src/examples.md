@@ -3,17 +3,15 @@ layout: "_layouts/base.njk"
 bodyClass: "[ last-page ]"
 title: "Design examples"
 
-page:
-  subtitle: "Preview of the prototype of a dummy article."
-  primary_msg: "A prototype with common elements and typesetting"
-  description: "Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology."
+subtitle: "Preview of the prototype of a dummy article."
+primary_msg: "A prototype with common elements and typesetting"
+description: "Design example with Modern CSS, CSS Grids, Custom Properties, Container Queries, Fluid Typography and CUBE Methodology."
 
-pagesubnav:
-  pageNumber: '8'
-  previousUrlText: 'Testing'
-  previousUrl: '/testing'
-  nextUrl: '/examples'
-  nextUrlText: ''
+pageNumber: '8'
+previousUrlText: 'Testing'
+previousUrl: '/testing'
+nextUrl: '/examples'
+nextUrlText: ''
 ---
 
 Implementing your designs following best practices and cutting-edge techniques about responsive design, semantic markup, accessibility, and performance will help you design effective websites and save time.

@@ -2,17 +2,15 @@
 layout: "_layouts/base.njk" 
 title: "Project Setup"
 
-page:
-  subtitle: "Setup a clean base to build your project under the right foundation"
-  primary_msg: "Start by setting up your project folder and organise your files following a clear structure to work efficiently."
-  description: "Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."
+subtitle: "Setup a clean base to build your project under the right foundation"
+primary_msg: "Start by setting up your project folder and organise your files following a clear structure to work efficiently."
+description: "Build your project under the right foundation with a clear file architecture, HTML, JS, CSS and other assetsto gain efficiency and performance."
 
-pagesubnav:
-  pageNumber: '2'
-  nextUrl: '/semantic-html/'
-  nextUrlText: 'HTML & Accessibility'
-  previousUrlText: 'Home'
-  previousUrl: '/'
+pageNumber: '2'
+nextUrl: '/semantic-html/'
+nextUrlText: 'HTML & Accessibility'
+previousUrlText: 'Home'
+previousUrl: '/'
 ---
 
 Since your website will require HTML, stylesheets, and media content to work, you will be required to make changes in various places to implement your designs.

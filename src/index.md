@@ -3,17 +3,16 @@ layout: "_layouts/base.njk"
 bodyClass: "[ front ]"
 title: "Prototyping principles"
 
-page:
-  subtitle: "Six simple steps for coding effective interfaces in HTML & CSS"
-  primary_msg: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
-  description: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
+subtitle: "Six simple steps for coding effective interfaces in HTML & CSS"
+primary_msg: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
+description: "Guidelines to help you implement healthy interfaces that add real business value and deliver good user experience."
 
-pagesubnav:
-  pageNumber: '1'
-  nextUrl: '/setup/'
-  nextUrlText: 'Project Setup'
-  previousUrlText: ''
-  previousUrl: '/'
+pageNumber: '1'
+nextUrl: '/setup/'
+nextUrlText: 'Project Setup'
+previousUrlText: ''
+previousUrl: '/'
+
 ---
 
 Once your key pages are fully mocked-up and you have an idea of the design direction, code a prototype in HTML and CSS that you can test and use as a blueprint to implement your website.

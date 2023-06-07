@@ -2,17 +2,15 @@
 layout: "_layouts/base.njk" 
 title: "Style your pages with Modern CSS"
 
-page:
-  subtitle: "Write the styles of your website"
-  primary_msg: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
-  description: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+subtitle: "Write the styles of your website"
+primary_msg: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
+description: "Consider writing the CSS of your pages using best-practices and Modern CSS to implement robust and flexible layouts."
 
-pagesubnav:
-  previousUrlText: 'CSS Architecture'
-  previousUrl: '/css-architecture'
-  pageNumber: '6'
-  nextUrl: '/testing'
-  nextUrlText: 'Testing'
+previousUrlText: 'CSS Architecture'
+previousUrl: '/css-architecture'
+pageNumber: '6'
+nextUrl: '/testing'
+nextUrlText: 'Testing'
 ---
 
 Designing an engaging and complex responsive layout is challenging, especially without using modern CSS properties and techniques to implement these designs.
