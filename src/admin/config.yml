@@ -11,8 +11,9 @@ collections: # A list of collections the CMS should be able to edit
     folder: "src/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    layout: "_layouts/base.njk"
+  
     fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "_layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "page.description", widget: "string"}
       - {label: "Primary message", name: "page.primary_msg", widget: "string"}
