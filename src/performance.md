@@ -1,16 +1,18 @@
 ---
-layout: "_layouts/base.njk" 
-title: "Optimise for performance"
-
-subtitle: "Consider performance right from the beginning"
-primary_msg: "Optimise your site resources to improve page rendering times and deliver content quickly to users."
-description: "Optimise your site for performance to deliver a good experience to users on the website."
-
+layout: _layouts/base.njk
+title: Optimise for performance
+description: >-
+  Optimise your site for performance to deliver a good experience to users on
+  the website.
+primary_msg: >-
+  Optimise your site resources to improve page rendering times and deliver
+  content quickly to users.
+date: 2023-06-07T19:31:02.029Z
 pageNumber: '4'
-previousUrlText: 'HTML & Accessibility'
-previousUrl: '/semantic-html'
-nextUrl: '/css-architecture/'
-nextUrlText: 'CSS Architecture'
+previousUrlText: HTML & Accessibility
+previousUrl: /semantic-html
+NextUrlText: CSS Architecture
+nextUrl: /css-architecture/
 ---
 
 Performance is a crucial aspect of good UX since users must access the content as fast as possible to accomplish their goals.
