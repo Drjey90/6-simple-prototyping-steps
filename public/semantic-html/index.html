@@ -14,7 +14,9 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <link rel="preconnect" href="https://kit.fontawesome.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://jk2020.sirv.com/">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 
 <link rel="preload" href="/assets/fonts/Inter-V-subset.woff2" as="font" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
 <link rel="preload" href="/assets/fonts/Literata-Roman-VF-subset.woff2" as="font" type="font/woff2" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
@@ -72,6 +74,8 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <meta name="theme-color" content="#34488d">
 
 <script 
+ defer=""
+ async="" 
   src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
   integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
   crossorigin="anonymous" >
@@ -229,7 +233,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
          <div class="[ section ]">
             <div class="[ article__content ][ container ][ grid twelve flow ]">
                <p>Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.</p>
-<h1>The problem</h1>
+<h3>The problem</h3>
 <p>One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.</p>
 <h3>Solution</h3>
 <p>To avoid implementing inaccessible pages, use semantic HTML to write meaningful pages and enhance critical aspects like <a href="https://boagworld.com/dev/semantic-code-in-html/">accessibility, SEO, cross-device compatibility and page load times</a>.</p>
@@ -279,7 +283,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
          <p class="tertiary text-grey-color">By Jerome Kalumbu</p>
       </header>
     <figure class="book flow" data-gap="gap">
-                <a href="https://www.jerome-kalumbu.com/dont-start-with-visuals"><img alt="Don't Start With Visuals Book" src="https://jk2020.sirv.com/book/book-visual-hd.png" width="500" height="500"></a>
+                <a href="https://www.jerome-kalumbu.com/dont-start-with-visuals"><img alt="Don't Start With Visuals Book" src="https://jk2020.sirv.com/book/book-visual-hd.webp" width="500" height="500"></a>
                 <section class="book__info">
                 <p>A creative <em>approach</em> with <em>UX design tips</em> to help you design effective and engaging websites.</p>
                 <div class="cta-btn"><a href="https://www.jerome-kalumbu.com/dont-start-with-visuals">Discover E-book</a></div>
@@ -303,7 +307,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                3 / 8
             </li>
             <li><strong>Next</strong><br>
-               <a href="/performance">t »</a>
+               <a href="/performance">Performance »</a>
             </li>
          </ul>
       </nav>
@@ -344,7 +348,8 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 		
 	 </script>
 
-    <script>
+    <script 
+ defer="">
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
