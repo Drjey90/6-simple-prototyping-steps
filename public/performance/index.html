@@ -87,8 +87,28 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 </script>
 
 <script 
+  async="" 
   defer=""
   src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+   <script 
+ async="" 
+ defer="">
+
+		 $('#hamburger').click(function(){
+		   $('.main-nav').toggleClass('active');
+		   $('body').toggleClass('nav-is-open');
+		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
+			  if (x == "true") 
+			  {
+			  x = "false"
+			  } else {
+			  x = "true"
+			  }
+			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
+		 });
+		
+	 </script>
 
 </head>
 
@@ -336,25 +356,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 			<p class="copy-right">Built with eleventy and ❤️ by Jerome Kalumbu & Alfred Lettang<br>
 			 <a href="/">Back to home »</a></p>			  		
 	</footer>
-
- <script 
- async="" 
- defer="">
-
-		 $('#hamburger').click(function(){
-		   $('.main-nav').toggleClass('active');
-		   $('body').toggleClass('nav-is-open');
-		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
-			  if (x == "true") 
-			  {
-			  x = "false"
-			  } else {
-			  x = "true"
-			  }
-			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
-		 });
-		
-	 </script>
 
     <script 
  defer="">

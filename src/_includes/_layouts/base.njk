@@ -51,25 +51,6 @@
 
    {% include 'partials/_footer.njk' %}
 
- <script 
- async="" 
- defer="">
-
-		 $('#hamburger').click(function(){
-		   $('.main-nav').toggleClass('active');
-		   $('body').toggleClass('nav-is-open');
-		   var x = document.getElementById("hamburger").getAttribute("aria-expanded"); 
-			  if (x == "true") 
-			  {
-			  x = "false"
-			  } else {
-			  x = "true"
-			  }
-			  document.getElementById("hamburger").setAttribute("aria-expanded", x);
-		 });
-		
-	 </script>
-
     <script 
  defer="">
   if (window.netlifyIdentity) {
