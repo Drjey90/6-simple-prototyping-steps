@@ -22,7 +22,7 @@ Performance is a crucial aspect of good UX since users must access the content a
 
 Most websites take too much time to load because resources like **scripts, fonts, images** and **CSS** are poorly optimised and therefore drastically increase the weight of pages.
 
-When resources are heavy to download and scripts block the page's rendering, it frustrates users and makes businesses lose sales because the content doesn't show promptly.
+When resources are heavy to download and scripts block the page's rendering, it frustrates users and makes businesses lose sales because visitor will leave the page.
 
 ### Solution: Optimise your resources
 
@@ -37,7 +37,7 @@ A good way to reduce the total page size of your website and improve page render
              <li>Did we prioritise key resources? <em>(e.g images, video, fonts…)</em>? </li>
              <li>Did we lazy-load non-critical images?</li>
              <li>Did we fetch late-found resources?</li>
-             <li>Did we eliminate render-blocking scripts?</li>
+             <li>Did we eliminate render-blocking resources?</li>
              <li>Did we warm connections to origins?</li>
              <li>Did we optimise our fonts?</li>
   </ol>
@@ -48,7 +48,7 @@ A good way to reduce the total page size of your website and improve page render
 *   Use `fetchpriority=high` to prioritise key resources
 *   Lazy load non-critical images with `loading=lazy` _(e.g. images below the fold)_
 *   Add decoding="async" to non-critical images
-*   Add `async=""` and `defer=""` attributes on heavy JS scripts
+*   Add `async=""` and `defer=""` to prevent JS script from blocking page rendering
 *   Warm connections to origins with `rel=preconnect` _(connection to third-party sites)_
 *   Use inline SVG to display vector elements
 *   Use _[Squoosh.app](https://squoosh.app/)_ to compress your images in AVIF or WEBP formats
@@ -56,7 +56,8 @@ A good way to reduce the total page size of your website and improve page render
 *   Host your images on _[Cloudinary](https://cloudinary.com/)_ or _[Sirv](https://sirv.com/)_
 *   Self-host your fonts
 *   Avoid layout shift by applying width and height attributes on these images
-      
+*   Add `rel="stylesheet"` and  `media="screen,print"` to stylesheets
+
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
             <h3>Resource</h3>
@@ -74,7 +75,8 @@ A good way to reduce the total page size of your website and improve page render
               <li><a href="https://www.htmhell.dev/tips/the-avif-image-format/">The AVIF image format</a></li>
               <li><a href="https://web.dev/browser-level-image-lazy-loading/">Lazy loading for the web</a></li>
               <li><a href="https://squoosh.app/">Squoosh.app</a></li> 
-              <li><a href="https://paper.dropbox.com/doc/Performance-Optimization-Strategy-in-2023--B5uliDvfsfq~O8rZ3WmH50gkAg-qWcr7orx2cEWHpLqoLeTC">Performance Optimization Strategy in 2023</a></li> 
+              <li><a href="https://paper.dropbox.com/doc/Performance-Optimization-Strategy-in-2023--B5uliDvfsfq~O8rZ3WmH50gkAg-qWcr7orx2cEWHpLqoLeTC">Performance Optimization Strategy in 2023</a></li>
+              <li><a href="https://sia.codes/posts/render-blocking-resources/">Render Blocking resources</a></li> 
             </ul>
           </div>
             {% include 'partials/_book.njk' %}

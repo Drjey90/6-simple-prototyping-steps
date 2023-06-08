@@ -21,7 +21,13 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <link rel="preload" href="/assets/fonts/Inter-V-subset.woff2" as="font" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
 <link rel="preload" href="/assets/fonts/Literata-Roman-VF-subset.woff2" as="font" type="font/woff2" crossorigin="" fetchpriority="high" media="(prefers-reduced-data: no-preference)">
 
-<link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet">
+<script 
+  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+  crossorigin="anonymous" >
+</script>
+
+<link rel="stylesheet" href="/assets/css/style.css" rel="stylesheet" media="screen,print">
 
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -72,14 +78,6 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 
 
 <meta name="theme-color" content="#34488d">
-
-<script 
- defer=""
-
-  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
-  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous" >
-</script>
 
 <script 
   async="" 
@@ -235,7 +233,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
                <p>Performance is a crucial aspect of good UX since users must access the content as fast as possible to accomplish their goals.</p>
 <h3>Problem: Heavy resources kill UX</h3>
 <p>Most websites take too much time to load because resources like <strong>scripts, fonts, images</strong> and <strong>CSS</strong> are poorly optimised and therefore drastically increase the weight of pages.</p>
-<p>When resources are heavy to download and scripts block the page's rendering, it frustrates users and makes businesses lose sales because the content doesn't show promptly.</p>
+<p>When resources are heavy to download and scripts block the page's rendering, it frustrates users and makes businesses lose sales because visitor will leave the page.</p>
 <h3>Solution: Optimise your resources</h3>
 <p>A good way to reduce the total page size of your website and improve page rendering times is to optimise resources like images, scripts, fonts and CSS by following some basic best practices.</p>
 <h3>Performance checklist</h3>
@@ -246,7 +244,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
              <li>Did we prioritise key resources? <em>(e.g images, video, fonts…)</em>? </li>
              <li>Did we lazy-load non-critical images?</li>
              <li>Did we fetch late-found resources?</li>
-             <li>Did we eliminate render-blocking scripts?</li>
+             <li>Did we eliminate render-blocking resources?</li>
              <li>Did we warm connections to origins?</li>
              <li>Did we optimise our fonts?</li>
   </ol>
@@ -256,7 +254,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <li>Use <code>fetchpriority=high</code> to prioritise key resources</li>
 <li>Lazy load non-critical images with <code>loading=lazy</code> <em>(e.g. images below the fold)</em></li>
 <li>Add decoding=&quot;async&quot; to non-critical images</li>
-<li>Add <code>async=&quot;&quot;</code> and <code>defer=&quot;&quot;</code> attributes on heavy JS scripts</li>
+<li>Add <code>async=&quot;&quot;</code> and <code>defer=&quot;&quot;</code> to prevent JS script from blocking page rendering</li>
 <li>Warm connections to origins with <code>rel=preconnect</code> <em>(connection to third-party sites)</em></li>
 <li>Use inline SVG to display vector elements</li>
 <li>Use <em><a href="https://squoosh.app/">Squoosh.app</a></em> to compress your images in AVIF or WEBP formats</li>
@@ -264,6 +262,7 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
 <li>Host your images on <em><a href="https://cloudinary.com/">Cloudinary</a></em> or <em><a href="https://sirv.com/">Sirv</a></em></li>
 <li>Self-host your fonts</li>
 <li>Avoid layout shift by applying width and height attributes on these images</li>
+<li>Add <code>rel=&quot;stylesheet&quot;</code> and  <code>media=&quot;screen,print&quot;</code> to stylesheets</li>
 </ul>
 <section class="[ resources ][ grid--4-5 grid ]" data-gap="gap">
           <div class="[ resources__links ][ flow ]">
@@ -282,7 +281,8 @@ Jerome Kalumbu @jerome_kalumbu https://www.jerome-kalumbu.com
               <li><a href="https://www.htmhell.dev/tips/the-avif-image-format/">The AVIF image format</a></li>
               <li><a href="https://web.dev/browser-level-image-lazy-loading/">Lazy loading for the web</a></li>
               <li><a href="https://squoosh.app/">Squoosh.app</a></li> 
-              <li><a href="https://paper.dropbox.com/doc/Performance-Optimization-Strategy-in-2023--B5uliDvfsfq~O8rZ3WmH50gkAg-qWcr7orx2cEWHpLqoLeTC">Performance Optimization Strategy in 2023</a></li> 
+              <li><a href="https://paper.dropbox.com/doc/Performance-Optimization-Strategy-in-2023--B5uliDvfsfq~O8rZ3WmH50gkAg-qWcr7orx2cEWHpLqoLeTC">Performance Optimization Strategy in 2023</a></li>
+              <li><a href="https://sia.codes/posts/render-blocking-resources/">Render Blocking resources</a></li> 
             </ul>
           </div>
             <div class="book-wrapper">
