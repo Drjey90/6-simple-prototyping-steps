@@ -20,11 +20,11 @@ nextUrl: /performance
 
 Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.
 
-### The problem
+### Bad HTML ruins accessibility & SEO
 
 One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.
 
-### Solution
+### Lay a solid foundation with semantic HTML
 
 To avoid implementing inaccessible pages, use semantic HTML to write meaningful pages and enhance critical aspects like [accessibility, SEO, cross-device compatibility and page load times](https://boagworld.com/dev/semantic-code-in-html/).
  

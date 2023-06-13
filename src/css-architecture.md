@@ -26,6 +26,8 @@ Also, without a consistent CSS architecture, navigating through the CSS can beco
 
 To **gain efficiency** and **optimise your CSS for performance**, architect your CSS files in a way that embraces CSS Cascading and inheritance.
 
+The main idea of this approach is to build your pages from components. Think at component level—or blocks when you work with styles to build your UI. Only use page-specific CSS to adjust layout styles.
+
 Our process of writing and structuring CSS files is based on [SASS](https://sass-lang.com/) and takes inspiration from the [CUBE CSS Methodology](https://cube.fyi/).
 
 We use this approach to build a clean CSS codebase, by using the power of the CSS cascade algorithm and inheritance.

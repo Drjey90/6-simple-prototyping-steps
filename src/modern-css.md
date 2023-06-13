@@ -68,6 +68,7 @@ The whole idea is to combine existing CSS with CSS layouts rules _(e.g. flexbox,
    <li><a href="https://www.smashingmagazine.com/2019/01/css-multiple-column-layout-multicol/" target="_blank">CSS Multi-Column Layout</a></li>
    <li><a href="https://stuffandnonsense.co.uk/blog/how-a-3-4-compound-grid-can-improve-on-12-columns" target="_blank">Layout love: 3+4 Compound Grids</a></li>
    <li><a href="https://12daysofweb.dev/2021/container-queries/" target="_blank">Container queries</a></li>
+   <li><a href="https://smolcss.dev/" target="_blank">SmolCSS: Modern CSS layouts and components</a></li>
 </ul>
 </div>
    {% include 'partials/_book.njk' %}

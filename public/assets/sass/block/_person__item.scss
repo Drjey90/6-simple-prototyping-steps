@@ -2,7 +2,12 @@
 -------------------------------------------*/
 
 .person__item{
+    margin-bottom: var(--space-l);
 
+    @include respond-to(desktop){
+        margin-bottom: 0;
+    }
+    
     .person__item__name{
         display: block;
         font-size: var(--step-3);
