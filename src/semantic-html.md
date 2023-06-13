@@ -20,16 +20,16 @@ nextUrl: /performance
 
 Now that the assets folder has been created, let’s forget about writing CSS for now. We will get to it once the HTML pages are ready.
 
-### Bad HTML ruins accessibility & SEO
+### Problem: Bad HTML ruins accessibility & SEO
 
 One reason most websites perform poorly is that the web pages have been mainly structured with non-semantic HTML elements like span or div, which makes it hard for screen-readers or users with disabilities to access the content.
 
-### Lay a solid foundation with semantic HTML
+### Solution: Use semantic HTML
 
 To avoid implementing inaccessible pages, use semantic HTML to write meaningful pages and enhance critical aspects like [accessibility, SEO, cross-device compatibility and page load times](https://boagworld.com/dev/semantic-code-in-html/).
  
 <h3>Checklist</h3>
-<h4 class="[ subtitle ][ text-grey-color ]">Start from the content to write meaningful HTML and set up a good foundation for accessibility.</h4>
+<h4 class="[ subtitle ][ text-grey-color ]">Start from the content to write meaningful HTML and set up a good foundation for accessibility & SEO.</h4>
        
 <ol class="[ special-list ][ special-list--checklist bg-white-color ]">       
   <li>Did we describe every element that is on the page? <em class="text-grey-color">(e.g. Heading? Is it an article? Is it a running text composed of paragraphs? Section? Tab? Menu? Paragraph? Button? Link? List?…)</em></li>
