@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "/assets/img/uploads" # Folder where user uploaded files should go
-pubic_folder: "/assets/img/uploads"
+public_folder: "/assets/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "guidelines" # Used in routes, e.g., /admin/collections/:slug/edit
