@@ -8,9 +8,9 @@ public_folder: "/assets/img/uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "guidelines" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Guideline" # Used in the UI, e.g., "New Post"
-    folder: "src/blog/" # The path to the folder where the documents are stored
+    folder: "src/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "/blog/{{ title | slugify }}/" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/base.njk"}
@@ -29,9 +29,8 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "post-1" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Post template Chicca" # Used in the UI, e.g., "New Post"
-    folder: "src/" # The path to the folder where the documents are stored
+    folder: "src/blog/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article.njk"}
@@ -47,9 +46,9 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "post-2" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Post template Bari Vecchia" # Used in the UI, e.g., "New Post"
-    folder: "src/" # The path to the folder where the documents are stored
+    folder: "src/blog/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{ title | slugify }}/" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-two.njk"}
@@ -65,9 +64,9 @@ collections: # A list of collections the CMS should be able to edit
     
   - name: "post-3" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Post template Sandy" # Used in the UI, e.g., "New Post"
-    folder: "src/" # The path to the folder where the documents are stored
+    folder: "src/blog/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{ title | slugify }}/" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-three.njk"}
