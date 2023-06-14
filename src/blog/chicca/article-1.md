@@ -1,37 +1,16 @@
 ---
 title: 'Porsche pushes the boundaries of automotive'
 primary: 'Unleashing the Power of Precision Engineering'
-layout: '_layouts/article.njk' 
+layout: '_layouts/article-one.njk' 
 layout_id: '1'
 date: Last Modified
 description: "Sandy"
 
 image: 'https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
 imageAlt: 'Buttered toasted white bread'
----
 
- <aside aria-label="Table of Contents">
-             <details open=""  class="flow">
-               <summary><strong>On this article:</strong></summary>
-               <nav class="toc">
-                 <ol>
-                   <li><a href="#">#</a></li>
-                    <li><a href="#">#</a></li>
-                    <li><a href="#">#</a></li>
-                    <li><a href="#">#</a></li>
-                    <li><a href="#">#</a></li>
-                   </ol>
-               </nav>
-             </details>
-        </aside>
-       <figure class="lead">
-          <img rel="preload" class="ratio" 
-          src="{{ image }}" 
-          alt="{{ imageAlt }}
-          ">
-       </figure>
-    </section>
-        <div class="[ post__main ][ grid flow grid--4-5 ]">
+sections: 'test'
+---
 
 <p class="dropcap">When it comes to luxury sports cars, one name consistently rises above the rest: Porsche. With a rich heritage spanning over seven decades, this German automaker has established itself as an icon of automotive excellence. From the sleek and aerodynamic designs to the powerful engines that roar beneath the hood, Porsche cars represent the perfect fusion of performance, craftsmanship, and style.</p>
 

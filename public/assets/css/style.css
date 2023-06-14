@@ -417,8 +417,8 @@ a, a:visited {
 
 a:focus {
   color: var(--linkcolor);
-  outline: var(--linkcolor) dashed 1px;
-  outline-offset: 0.2rem;
+  outline: var(--linkcolor) dashed 2px;
+  outline-offset: 0.5rem;
 }
 
 a:visited {
@@ -1024,6 +1024,13 @@ hr {
   text-transform: uppercase;
 }
 
+/* Full bleed
+-------------------------------------------*/
+.full-bleed, .article-template footer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
 /* Blocks */
 /* Contact
 -------------------------------------------*/
@@ -1115,6 +1122,7 @@ hr {
   padding: 0 15px;
   z-index: 1;
   position: absolute;
+  left: 0;
 }
 @media only screen and (min-width: 768px) {
   .logo {
@@ -1765,6 +1773,7 @@ input[type=checkbox]:checked + label:after {
   text-align: left;
   position: absolute;
   padding-bottom: 0;
+  left: 0;
 }
 .article__content time,
 .post__main time {
@@ -2073,6 +2082,12 @@ input[type=checkbox]:checked + label:after {
 .article-template .post__header {
   margin-bottom: var(--space-2xl);
 }
+@media only screen and (min-width: 1024px) {
+  .article-template .post__header time {
+    margin-top: var(--space-xl);
+    display: block;
+  }
+}
 .article-template .post__header header {
   grid-column: 2/7;
 }
@@ -2160,7 +2175,7 @@ input[type=checkbox]:checked + label:after {
   width: 10px;
   height: 10px;
   margin-left: 10px;
-  background: var(--primary);
+  background: var(--linkcolor);
   border-radius: 3px;
 }
 .article-template-4 .article-4-wrapper {

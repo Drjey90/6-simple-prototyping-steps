@@ -1,6 +1,7 @@
 /* Links
 -------------------------------------------*/
 
+
 a, a:visited {
     color: var(--linkcolor);
     text-decoration-color: var(--linkcolor);
@@ -12,8 +13,8 @@ a, a:visited {
 
 a:focus {
     color: var(--linkcolor);    
-    outline: var(--linkcolor) dashed 1px;
-    outline-offset: 0.2rem;
+    outline: var(--linkcolor) dashed 2px;
+    outline-offset: 0.5rem;
 }
     
 a:visited {

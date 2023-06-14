@@ -1,0 +1,57 @@
+{% include 'partials/_head.njk' %}
+
+<body class="[ article article-template ][ container ]">
+
+<a href="#content" class="skip-link">Skip to content</a>
+
+<!-- header -->
+<header class="logo">
+   <a href="/" aria-label="{{ site.name }} - home">
+      {% include 'partials/_logo.svg' %}
+      </a>
+</header>
+<!-- /header -->
+
+<!-- main -->
+<main id="content">
+
+<!-- article -->
+<article class="[ post ][ container flow section ]">
+    
+   <section class="[ post__header ][ grid grid--4-5 ]" data-gap="gap">
+       
+      <header>
+         <time>{{ page.date | postDate }}</time>
+         <h1 class="text-primary-color">{{ title }}</h1>
+         <p class="primary-msg">{{ primary }}</p>
+      </header>
+      
+      <aside aria-label="biography" class="flow bio">
+         <img class="ratio" src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGFzaWFuJTIwZGVzaWduZXJ8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" alt="jerome kalumbu" loading="lazy" width="200" height="200">
+         <p class="small text-grey-dark-color">Hi, I am Mary Ming.
+For the last 12 years, I’ve been writing articles about automotive and innovation.</p>
+      </aside>
+      
+      <aside aria-label="Table of Contents">
+         <details open="" class="flow">
+            <summary><strong>On this article:</strong></summary>
+            <nav class="toc">
+               {{ sections }}
+            </nav>
+         </details>
+      </aside>
+      
+      <figure class="lead">
+          <img rel="preload" class="ratio" 
+            src="{{ image }}" 
+            alt="{{ imageAlt }}
+          ">
+      </figure>
+      
+   </section>
+   <div class="[ post__main ][ grid flow grid--4-5 ]">
+       {{ content | safe }}
+   </div>
+</article>
+   {% include 'partials/_secondary-nav.njk' %}
+    {% include 'partials/_footer.njk' %}

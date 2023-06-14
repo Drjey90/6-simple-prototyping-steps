@@ -5,11 +5,11 @@
   padding: 0 15px;
   z-index: 1;
   position: absolute;
+  left: 0;
   
   
   @include respond-to(tablets){
     padding: 0 var(--space-l) var(--space-2xl) var(--space-l);
-   // position: inherit;
   }
 
   svg{

@@ -26,6 +26,10 @@
 	}
 }
 
+.article-template footer{
+	@extend .full-bleed;
+}
+
 /*= container queries */
 
 @container sidebar (width <= 300px) {
