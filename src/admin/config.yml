@@ -27,57 +27,57 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "next Url Text", name: "nextUrlText", widget: "string"}
       - {label: "next Url Link", name: "nextUrl", widget: "string"}
 
-    - name: "post-1" # Used in routes, e.g., /admin/collections/:slug/edit
-      label: "Post template Chicca" # Used in the UI, e.g., "New Post"
-      folder: "src/" # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "post-1" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Post template Chicca" # Used in the UI, e.g., "New Post"
+    folder: "src/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
-      fields: # The fields each document in this collection have
-        - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article.njk"}
-        - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Primary message", name: "primary", widget: "string"}
-        - {label: "Featured Image", name: "image", widget: "image"}
-        - {label: "Image Alt", name: "imageAlt", widget: "string"}
-        - {label: "Meta description", name: "description", widget: "string"}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - {label: "Layout number", name: "layout_id", widget: "string"}
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article.njk"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Primary message", name: "primary", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Image Alt", name: "imageAlt", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout number", name: "layout_id", widget: "string"}
 
-    - name: "post-2" # Used in routes, e.g., /admin/collections/:slug/edit
-      label: "Post template Bari Vecchia" # Used in the UI, e.g., "New Post"
-      folder: "src/" # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "post-2" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Post template Bari Vecchia" # Used in the UI, e.g., "New Post"
+    folder: "src/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
-      fields: # The fields each document in this collection have
-        - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-two.njk"}
-        - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Primary message", name: "primary", widget: "string"}
-        - {label: "Featured Image", name: "image", widget: "image"}
-        - {label: "Image Alt", name: "imageAlt", widget: "string"}
-        - {label: "Meta description", name: "description", widget: "string"}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - {label: "Layout number", name: "layout_id", widget: "string"}
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-two.njk"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Primary message", name: "primary", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Image Alt", name: "imageAlt", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout number", name: "layout_id", widget: "string"}
     
-    - name: "post-3" # Used in routes, e.g., /admin/collections/:slug/edit
-      label: "Post template Sandy" # Used in the UI, e.g., "New Post"
-      folder: "src/" # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "post-3" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Post template Sandy" # Used in the UI, e.g., "New Post"
+    folder: "src/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
-      fields: # The fields each document in this collection have
-        - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-three.njk"}
-        - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Primary message", name: "primary", widget: "string"}
-        - {label: "Featured Image", name: "image", widget: "image"}
-        - {label: "Image Alt", name: "imageAlt", widget: "string"}
-        - {label: "Image Caption", name: "imageCaption", widget: "string"}
-        - {label: "Meta description", name: "description", widget: "string"}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - {label: "Layout number", name: "layout_id", widget: "string"}
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-three.njk"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["article"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Primary message", name: "primary", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Image Alt", name: "imageAlt", widget: "string"}
+      - {label: "Image Caption", name: "imageCaption", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout number", name: "layout_id", widget: "string"}
