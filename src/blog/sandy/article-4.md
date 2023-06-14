@@ -1,14 +1,15 @@
 ---
-title: 'Sandy discovers London'
-primary: "Join Sandy as she embarks on her inaugural journey through the nocturnal wonders of London."
-layout: '_layouts/article-three.njk' 
-layout_id: '4'
+layout: _layouts/article-three.njk
+title: Sandy discovers London
+primary: >-
+  Join Sandy as she embarks on her inaugural journey through the nocturnal
+  wonders of London.
+image: /assets/img/uploads/sandy.webp
+imageAlt: Image of Sandy in London
+imageCaption: Image of Sandy in London
+description: Sandy
 date: Last Modified
-description: "Sandy"
-
-image: 'https://images.unsplash.com/photo-1504131598085-4cca8500b677?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80'
-imageAlt: 'Image of Sandy in London'
-
+layout_id: '4'
 ---
 
 ## A Historical Marvel
