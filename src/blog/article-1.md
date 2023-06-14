@@ -4,12 +4,10 @@ primary: 'Unleashing the Power of Precision Engineering'
 layout: '_layouts/article.njk' 
 layout_id: '1'
 date: Last Modified
+description: "Sandy"
 
-
-article:
-  image: 'https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
-  imageAlt: 'Buttered toasted white bread'
-  tags: ['Culture', 'Design Thinking']
+image: 'https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+imageAlt: 'Buttered toasted white bread'
 ---
 
  <aside aria-label="Table of Contents">
@@ -28,8 +26,8 @@ article:
         </aside>
        <figure class="lead">
           <img rel="preload" class="ratio" 
-          src="{{ article.image }}" 
-          alt="{{ article.imageAlt }}
+          src="{{ image }}" 
+          alt="{{ imageAlt }}
           ">
        </figure>
     </section>

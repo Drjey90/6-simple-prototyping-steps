@@ -1,13 +1,14 @@
 ---
-title: 'Stadio San Siro'
-primary: "San Siro an iconic symbol of football's rich history and passion in Milan, Italy"
-layout: '_layouts/article-two.njk' 
-layout_id: '3'
+title: 'Sandy discovers London'
+primary: "Join Sandy as she embarks on her inaugural journey through the nocturnal wonders of London."
+layout: '_layouts/article-three.njk' 
+layout_id: '4'
 date: Last Modified
+description: "Sandy"
 
-image: 'https://images.unsplash.com/photo-1643105095873-64c53d2a8fa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80'
-imageAlt: 'Italian street'
- 
+image: 'https://images.unsplash.com/photo-1504131598085-4cca8500b677?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80'
+imageAlt: 'Image of Sandy in London'
+
 ---
 
 ## A Historical Marvel

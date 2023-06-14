@@ -4,7 +4,6 @@
 /* Root */
 
 :root{
-    background: var(--bodycolor);
     font-size: 62.5%;
     -webkit-overflow-scrolling: touch;
     -webkit-tap-highlight-color: var(--primary);
@@ -17,6 +16,7 @@
 
 @supports (font-variant-ligatures: common-ligatures) {
   body {
+ background: var(--bodycolor);
   font-feature-settings: normal;
   font-variant-ligatures: common-ligatures; 
   }
@@ -40,18 +40,18 @@
 
 /* Styled scrollbars (Critical: None) */
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
    height: 6px;
    width: 6px; 
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
    width: 3px;
    background-color: var(--linkcolor);
    border-radius: 3px; 
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
    background-color: rgba(0,0,0,.15);
    border-radius: 0; 
 }

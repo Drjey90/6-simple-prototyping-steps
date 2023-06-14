@@ -4,10 +4,10 @@ primary: 'Unleashing the Power of Precision Engineering'
 layout: '_layouts/article-two.njk' 
 layout_id: '2'
 date: Last Modified
+description: "Sandy"
 
-article:
-  image: 'https://images.unsplash.com/photo-1601827184438-de436193d5f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2140&q=80'
-  imageAlt: 'Italian street'
+image: 'https://images.unsplash.com/photo-1601827184438-de436193d5f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2140&q=80'
+imageAlt: 'Italian street'
 ---
 
 Sitting in a Reykjavík studio in the summer of 2017, Björk had a very specific request for Marta Salogni: The singer wanted to make a song sound like she was “whispering a secret amongst the fireworks.”

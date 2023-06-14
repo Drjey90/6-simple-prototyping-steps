@@ -28,8 +28,8 @@ Below are examples to help you dig around and see how we apply the styles on dif
          <figure>
             <a href="{{ post.url }}">
             <img rel="preload" class="ratio" 
-               src="{{  post.data.article.image }}" 
-               alt="{{  post.data.article.imageAlt }}
+               src="{{  post.data.image }}" 
+               alt="{{  post.data.imageAlt }}
                ">
          </figure>
          </a>

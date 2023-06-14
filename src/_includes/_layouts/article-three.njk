@@ -1,0 +1,35 @@
+ {% include 'partials/_head.njk' %}
+ <body class="[ article ] [ article-template-4 ] [ article-template ]">  
+    <a href="#content" class="skip-link">Skip to content</a>
+    
+    <article class="grid grid--4-5 article-4-wrapper container" data-gap="gap">
+         <div class="logo">    
+            <a href="/" aria-label="{{ site.name }} - home">
+            {% include 'partials/_logo.svg' %}
+            </a>
+         </div>
+     
+         <figure class="flow" data-gap="gap">
+               <img rel="preload" class="ratio" 
+                    src="{{ image }}" 
+                    alt="{{ imageAlt }}"
+                >
+                
+               <figcaption class="text-grey-color">{{ imageCaption }}</figcaption>
+         </figure>
+         
+         <main id="content" tabindex="-1">
+
+         <header class="flow">
+             <h1 class="text-primary-color">{{ title }}</h1>
+             <p class="primary-msg">{{ primary }}</p>
+         </header>
+                   
+               <div class="[ article__content ][ flow post section ]">
+                {{ content | safe }}
+          </div>
+            {% include 'partials/_secondary-nav.njk' %}
+
+          </main>
+    </article>
+   {% include 'partials/_footer.njk' %}
