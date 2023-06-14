@@ -1,0 +1,46 @@
+/* Post item
+-------------------------------------------*/
+
+.posts{
+
+  &__item{
+
+    margin-bottom: var(--space-l);
+
+    @include respond-to(tablets){
+      margin-bottom: 0;
+    }
+  
+    img{
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    
+    
+    h3{
+      margin: var(--space-m) 0;
+      font-weight: var(--font-weight-heavy);
+    }
+    
+  
+    
+    &:not(.posts__item--main){
+      
+      h3{
+        font-size: var(--step-3);
+        margin-top: 0;      
+        font-weight: var(--font-weight-bold);        
+        padding-top: var(--space-m);
+      }
+      
+      p{
+        font-size: var(--step-1);
+      }
+    }
+  }
+  
+  
+  
+
+}
+

@@ -1,0 +1,18 @@
+/* Posts
+-------------------------------------------*/
+
+.posts{
+  
+  header{
+    grid-column: 3 / -3;
+  }
+  
+  .container > .posts__item:nth-of-type(1){
+    grid-column: 1 / 6;
+  }
+  
+  ul{
+    grid-column: 6 / -1;
+  }
+ 
+}

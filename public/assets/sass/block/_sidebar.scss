@@ -1,0 +1,25 @@
+/* Sidebar
+-------------------------------------------*/
+
+.sidebar{
+  background: var(--sidebar-background);
+  height: 100%;
+  container: sidebar / inline-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+  @include respond-to(tablets){
+    position: fixed;
+    width: 250px;
+  }
+  
+  footer{
+    display: none;
+    @include respond-to(tablets){
+      display: flex;
+    }
+  }
+}
+

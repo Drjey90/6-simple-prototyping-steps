@@ -1,0 +1,11 @@
+/* Image ration
+-------------------------------------------*/
+
+.ratio{
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  
+  @include respond-to(desktop){
+    aspect-ratio: var(--aspect-ratio);
+  }
+}
