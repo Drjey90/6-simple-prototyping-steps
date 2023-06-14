@@ -8,9 +8,9 @@ public_folder: "/assets/img/uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "guidelines" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Guideline" # Used in the UI, e.g., "New Post"
-    folder: "src/" # The path to the folder where the documents are stored
+    folder: "src/blog/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{ title | slugify }}/" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/base.njk"}
