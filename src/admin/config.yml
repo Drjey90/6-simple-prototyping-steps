@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "/assets/img/uploads" # Folder where user uploaded files should go
+media_folder: "public/assets/img/uploads" # Folder where user uploaded files should go
 public_folder: "/assets/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
@@ -31,7 +31,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post template Chicca" # Used in the UI, e.g., "New Post"
     folder: "src/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article.njk"}
@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post template Bari Vecchia" # Used in the UI, e.g., "New Post"
     folder: "src/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-two.njk"}
@@ -67,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post template Sandy" # Used in the UI, e.g., "New Post"
     folder: "src/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "/blog/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "_layouts/article-three.njk"}
