@@ -2,7 +2,7 @@
 layout: _layouts/article-three.njk
 tags:
   - article
-title: chanou
+title: chanout
 primary: chanou
 image: /assets/img/uploads/capture d’écran 2023-01-20 à 10.55.12.png
 imageAlt: chanou
