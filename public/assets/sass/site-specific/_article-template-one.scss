@@ -57,6 +57,10 @@
             > .bio {
               grid-column: 1;
               grid-row: 2;
+
+              @include respond-to(desktop){
+                padding-left: var(--space-2xl);
+              }
             }
 
             > aside:nth-of-type(2){
@@ -70,9 +74,13 @@
             
             > .logo{
               grid-column: 1;
-              @include respond-to(desktop){
-               
+
+              @include respond-to(tablets){
                 padding-left: 0;
+              }
+              
+              @include respond-to(desktop){
+                padding-left: var(--space-2xl);
               }
             }
          
