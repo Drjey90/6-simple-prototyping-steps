@@ -14,8 +14,8 @@ layout_id: '1'
             <summary><strong>On this article:</strong></summary>
             <nav class="toc">
                <ul>
-               <li>M</li>
-               <li>M</li>
+               <li>This a heading 1</li>
+               <li>This is a heading 2</li>
                </ul>
             </nav>
          </details>
@@ -28,7 +28,10 @@ layout_id: '1'
 Porsche's commitment to pushing the boundaries of automotive engineering is unmatched. The company has consistently introduced groundbreaking technologies and design principles that have redefined the industry. Ferdinand Porsche, the visionary founder, set the stage for this legacy of innovation when he created the world's first gasoline-electric hybrid vehicle in 1900.
 
 > "I couldn't find the sports car of my dreams, so I built it myself."
-    <figcaption>- Ferdinand Porsche</figcaption>
+
+```
+<figcaption>- Ferdinand Porsche</figcaption>
+```
 
 ## The Perfect Balance: Form and Function
 
@@ -39,9 +42,12 @@ Porsche's meticulous attention to detail is evident in every curve and contour o
 At the heart of every Porsche lies a powerful engine that embodies the spirit of pure performance. The engineers at Porsche leave no stone unturned in their pursuit of automotive perfection. From the efficient flat-six engines to the lightning-fast acceleration, driving a Porsche is an exhilarating experience unlike any other.
 
 > "The Porsche driver wants to drive."
-    <figcaption>- Ferdinand Porsche</figcaption>
 
-##  Craftsmanship and Luxury
+```
+<figcaption>- Ferdinand Porsche</figcaption>
+```
+
+## Craftsmanship and Luxury
 
 Step inside a Porsche, and you'll be greeted by a world of luxury and craftsmanship. The interior of each car is meticulously crafted with the finest materials, offering a blend of comfort and sophistication. From the supple leather seats to the cutting-edge infotainment systems, Porsche ensures that every detail enhances the driving experience.
 
@@ -58,9 +64,11 @@ While Porsche cars are renowned for their high-performance capabilities, they al
 In an era where sustainability has become a global priority, Porsche remains at the forefront of environmentally conscious automobile manufacturing. The company has made significant strides in developing electric and hybrid vehicles, with models like the Taycan leading the charge. By combining performance with sustainability, Porsche paves the way for a greener future.
 
 > "Sustainability is a challenge that concerns us all."
-    <figcaption>- Oliver Blume, CEO of Porsche AG </figcaption>
+
+```
+<figcaption>- Oliver Blume, CEO of Porsche AG </figcaption>
+```
 
 ## Conclusion
 
 Porsche's unwavering commitment to excellence has made it a symbol of prestige and innovation in the automotive world. From its humble beginnings to its present-day success, the brand continues to redefine what it means to drive a luxury sports car. With each new model, Porsche raises the bar higher, showcasing their dedication to delivering driving pleasure, cutting-edge technology, and a sustainable future. When you get behind the wheel of a Porsche, you enter a world where precision engineering and unrivaled performance combine to create an experience that is truly extraordinary.
-   
