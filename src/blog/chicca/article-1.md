@@ -6,9 +6,6 @@ description: Sandy
 image: >-
   https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80
 imageAlt: Buttered toasted white bread
-sections:
-    - Test
-    - Test 2
 date: Last Modified
 layout_id: '1'
 ---
