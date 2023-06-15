@@ -57,11 +57,7 @@
   
   h4 + ul,
   h4 + ol,
-  h4 + dl
-  
-  h5 + ul,
-  h5 + ol,
-  h5 + dl{
+  h4 + dl{
     margin-top: var(--space-xl);
   }
   
@@ -73,6 +69,13 @@
   h3 + .cta-btn{
     margin-top: var(--space-xl);
     margin-bottom: var(--space-l);
+  }
+
+  .cta-btn + h5,
+  .cta-btn + h4,
+  .cta-btn + h3,
+  .cta-btn + h2{
+    margin-top: var(--space-xl);
   }
   
   /* =headings */
@@ -147,6 +150,14 @@
     padding-bottom: var(--space-3xl);
   }
 
+  blockquote{
+    margin: var(--space-2xl) 0 var(--space-l); 
+
+    figcaption + p{
+      margin: 0;
+    }
+  }
+
   /* =post header */
 
   .post__header{
@@ -188,14 +199,6 @@
   
     > *{
       grid-column: 3 / 7
-    }
-    
-    blockquote{
-      margin: var(--space-2xl) 0 var(--space-l); 
-
-      figcaption + p{
-        margin: 0;
-      }
     }
     
     h3{

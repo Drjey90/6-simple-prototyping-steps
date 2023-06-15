@@ -6,15 +6,23 @@ description: Sandy
 image: >-
   https://images.unsplash.com/photo-1626622226365-952baa01c2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80
 imageAlt: Buttered toasted white bread
-sections: |-
-  <ul>
-
-  <li>test</li>
-
-  <ul>
+sections:
+    - Test
+    - Test 2
 date: Last Modified
 layout_id: '1'
 ---
+<aside aria-label="Table of Contents">
+         <details open="" class="flow">
+            <summary><strong>On this article:</strong></summary>
+            <nav class="toc">
+               <ul>
+               <li>M</li>
+               <li>M</li>
+               </ul>
+            </nav>
+         </details>
+</aside>
 
 <p class="dropcap">When it comes to luxury sports cars, one name consistently rises above the rest: Porsche. With a rich heritage spanning over seven decades, this German automaker has established itself as an icon of automotive excellence. From the sleek and aerodynamic designs to the powerful engines that roar beneath the hood, Porsche cars represent the perfect fusion of performance, craftsmanship, and style.</p>
 

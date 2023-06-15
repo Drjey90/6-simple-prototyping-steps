@@ -89,3 +89,13 @@
    
 }
 
+.book{
+    @include respond-to(desktop){
+        display: block;
+     }
+    
+     .book__info p {
+        margin-top: var(--space-l);
+    }
+}
+

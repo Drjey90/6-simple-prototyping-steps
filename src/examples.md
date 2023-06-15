@@ -17,7 +17,15 @@ nextUrlText: ''
 
 Implementing your designs following best practices and cutting-edge techniques about responsive design, semantic markup, accessibility, and performance will help you design effective websites and save time.
 
-Below are examples to help you dig around and see how we apply the styles on different design examples   
+Below are examples to help you dig around and see how we apply the styles on different design examples
+
+In this page you will find a collection of layouts and components coded in HTML & CSS with different art-direction. 
+
+The layouts are available as static HTML & CSS files to use as a foundation for designing your next article pages with modern HTML & CSS.
+
+<div class="[ cta-btn ][ outline ]">
+  <a href="https://github.com/Drjey90/6-simple-steps-design-examples/archive/refs/heads/main.zip">♠️  Download design files in HTML & CSS</a>
+</div>
       
 <h3>Article templates</h3>
 

@@ -2,16 +2,28 @@
 -------------------------------------------*/
 
 .bio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   img{
     --aspect-ratio: 1 / 1;
+    width: 120px;
     
     @include respond-to(desktop){
       --aspect-ratio: 3 / 4;
+      width: 200px;
     }
     
     margin-bottom: var(--space-l);
     object-fit: cover;
     object-position: top;
+  }
+
+  p{
+    margin-top: 0;
+    @include respond-to(desktop){
+      width: 23ch;
+    }
   }
 }
