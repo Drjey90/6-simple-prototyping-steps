@@ -205,7 +205,7 @@ styles.scss
     </details>
 
 <div class="[ cta-btn ][ outline ]">
-  <a href="#">♠️  Download directly the boilerplate template here</a>
+  <a href="https://github.com/Drjey90/6-simple-steps-design-examples/archive/refs/heads/main.zip">♠️  Download directly the boilerplate template here</a>
 </div>
 
 <h3>Takeaways</h3>
