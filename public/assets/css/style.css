@@ -99,7 +99,7 @@ select {
   --color-border:#e2e2e2;
   --color-border-alt: #E8E8E8;
   --logo-color: #2e4698;
-  --sidebar-background: transparent;
+  --sidebar-background: #fff;
   --footer-bg:#fff;
   --alert-color: #825454;
   /*= cta */
@@ -1990,7 +1990,6 @@ input[type=checkbox]:checked + label:after {
 }
 /* page layout */
 .default-template {
-  --sidebar-background: #fff;
   --footer-bg: #f4e8dd;
 }
 @media only screen and (min-width: 768px) {
