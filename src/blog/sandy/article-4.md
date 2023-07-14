@@ -11,7 +11,7 @@ description: Sandy
 date: Last Modified
 layout_id: '4'
 ---
-London, the vibrant capital of the United Kingdom, is known for its rich history, cultural diversity, and bustling city life. Countless stories have been told about the daytime adventures and sights in this iconic city, but what about its nighttime allure? Join Sandy, a young and talented designer, as she embarks on her first exploration of London after dark, immersing herself in the enchanting and mysterious world that awakens as the sun sets.
+London City, the vibrant capital of the United Kingdom, is known for its rich history, cultural diversity, and bustling city life. Countless stories have been told about the daytime adventures and sights in this iconic city, but what about its nighttime allure? Join Sandy, a young and talented designer, as she embarks on her first exploration of London after dark, immersing herself in the enchanting and mysterious world that awakens as the sun sets.
 
 ## The lively streets of Soho
 
