@@ -1,7 +1,7 @@
 ---
 layout: _layouts/base.njk
 title: Usability & browser testing
-subtitle: Tests your prototype early and often.
+subtitle: Testss your prototype early and often.
 description: >-
   Test your prototype on different browser and do usability testing to address
   any critical issues before going live.
